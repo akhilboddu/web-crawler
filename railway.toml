@@ -1,8 +1,8 @@
 [build]
-builder = "DOCKERFILE"
-dockerfile = "Dockerfile"
+builder = "nixpacks"
 
 [deploy]
+startCommand = "cd src && uvicorn app:app --host 0.0.0.0 --port $PORT"
 healthcheck_path = "/health"
 healthcheck_timeout = 10
 restartPolicyType = "on_failure"
