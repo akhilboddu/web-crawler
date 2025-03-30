@@ -20,4 +20,4 @@ ENV PYTHONPATH=/app
 EXPOSE ${PORT}
 
 # Command to run the application
-CMD ["gunicorn", "app:app", "--workers", "4", "--worker-class", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:${PORT}", "--timeout", "120"] 
+CMD gunicorn app:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:${PORT} --timeout 120 
