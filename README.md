@@ -10,43 +10,6 @@ A reliable web crawler REST API designed for building knowledge bases.
 - **Job management**: Start, monitor, and retrieve crawl jobs
 - **Knowledge base ready**: Output is formatted for direct knowledge base ingestion
 
-## Deployment
-
-### Render Deployment
-
-1. Sign up for a [Render account](https://render.com/)
-2. Create a new Web Service and connect your GitHub repository
-3. Configure as follows:
-   - Environment: Docker
-   - Branch: main
-   - Plan: Free
-   
-### Continuous Deployment
-
-For automated deployments via GitHub Actions:
-
-1. In your Render dashboard, get your Service ID and create an API Key
-2. Add these secrets to your GitHub repository:
-   - `RENDER_SERVICE_ID`: Your Render service ID
-   - `RENDER_API_KEY`: Your Render API key
-
-## Local Development
-
-### Docker
-
-Build and run using Docker:
-
-```bash
-docker build -t web-crawler .
-docker run -p 8016:8016 web-crawler
-```
-
-### Docker Compose
-
-```bash
-docker-compose up
-```
-
 ## Getting Started
 
 ### Prerequisites
@@ -212,6 +175,19 @@ The output from this crawler is specifically designed for knowledge base ingesti
 2. **Metadata preservation**: Titles, descriptions, and URLs are preserved
 3. **Structure maintained**: The relationship between pages is maintained through links
 4. **Full-text search ready**: The content field provides a consolidated text representation
+
+## Deployment
+
+### Render Deployment
+
+1. Sign up for a [Render account](https://render.com/)
+2. Create a new Web Service and connect your GitHub repository
+3. Configure as follows:
+   - Environment: Docker
+   - Branch: main
+   - Plan: Free
+
+✅ **Current Deployment**: [https://web-crawler-ui07.onrender.com/](https://web-crawler-ui07.onrender.com/)
 
 ## License
 
