@@ -1,6 +1,5 @@
 [build]
-builder = "nixpacks"
-nixpacksConfigPath = "nixpacks.toml"
+builder = "DOCKERFILE"
 
 [deploy]
 startCommand = "cd src && uvicorn app:app --host 0.0.0.0 --port $PORT"

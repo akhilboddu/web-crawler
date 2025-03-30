@@ -1,28 +1,16 @@
 FROM python:3.9-slim
 
-# Set work directory
 WORKDIR /app
 
-# Set environment variables
-ENV PYTHONDONTWRITEBYTECODE=1
-ENV PYTHONUNBUFFERED=1
-ENV PORT=8016
-
-# Install dependencies
+# Copy requirements and install
 COPY src/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project files
-COPY src/ .
+# Copy application code
+COPY src/ /app/
 
-# Create directories
-RUN mkdir -p results
+# Set environment variables
+ENV PORT=8016
 
-# Make port available
-EXPOSE $PORT
-
-# Make the start script executable
-RUN chmod +x start.sh
-
-# Run the application using the shell script
-CMD ["./start.sh"] 
+# Run the application
+CMD bash -c "cd /app && uvicorn app:app --host 0.0.0.0 --port ${PORT}" 
