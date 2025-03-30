@@ -1,11 +1,10 @@
 [phases.setup]
-nixPkgs = ["python310", "gcc"]
+aptPkgs = ["python3", "python3-pip", "python3-venv"]
 
 [phases.install]
-cmds = [
-  "python -m venv --copies /opt/venv",
-  ". /opt/venv/bin/activate && pip install -r src/requirements.txt"
-]
+cmds = ["python -m venv /opt/venv", 
+        ". /opt/venv/bin/activate", 
+        "pip install -r src/requirements.txt"]
 
 [start]
 cmd = "cd src && . /opt/venv/bin/activate && uvicorn app:app --host 0.0.0.0 --port $PORT" 

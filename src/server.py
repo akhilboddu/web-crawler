@@ -6,7 +6,7 @@ import argparse
 from datetime import datetime
 import statistics
 from typing import List, Dict, Any, Optional
-from crawler.crawler import crawl_website
+from crawler.crawler import WebCrawler
 
 # Configure logging
 logging.basicConfig(
@@ -49,10 +49,12 @@ async def crawl(request: CrawlRequest):
         logger.info(f"Starting crawl of {request.url}")
         start_time = datetime.now()
         
-        result = await crawl_website(str(request.url), request.max_pages, request.max_depth)
+        # Create WebCrawler instance and call crawl method
+        crawler = WebCrawler()
+        result = await crawler.crawl(str(request.url), request.max_pages, request.max_depth)
         
-        if "error" in result:
-            raise HTTPException(status_code=500, detail=result["error"])
+        if not result:
+            raise HTTPException(status_code=500, detail="Crawl failed")
         
         end_time = datetime.now()
         
@@ -64,11 +66,14 @@ async def crawl(request: CrawlRequest):
                 "max_depth": request.max_depth
             },
             "timing": {
-                "start_time": result.get("stats", {}).get("start_time", start_time.isoformat()),
-                "end_time": result.get("stats", {}).get("end_time", end_time.isoformat()),
-                "total_time": (end_time - start_time).total_seconds()
+                "start_time": result.get("start_time", start_time.isoformat()),
+                "end_time": result.get("end_time", end_time.isoformat()),
+                "total_time": result.get("crawl_time", (end_time - start_time).total_seconds())
             },
-            "statistics": result.get("stats", {}),
+            "statistics": {
+                "total_pages": result.get("total_pages", 0),
+                "crawl_time": result.get("crawl_time", 0)
+            },
             "pages": result.get("pages", [])
         }
         
