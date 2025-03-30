@@ -12,12 +12,12 @@ COPY src/ ./
 # Create required directories
 RUN mkdir -p results
 
-# Set environment variables
+# Default port
 ENV PORT=8016
 ENV PYTHONPATH=/app
 
 # Expose port
-EXPOSE ${PORT}
+EXPOSE 8016
 
 # Command to run the application
-CMD gunicorn app:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:${PORT} --timeout 120 
+CMD gunicorn app:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT --timeout 120 
