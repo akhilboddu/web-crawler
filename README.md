@@ -2,6 +2,8 @@
 
 A web crawler API for extracting content from websites, built with FastAPI and asyncio.
 
+[![Deploy to Railway](https://railway.app/button.svg)](https://railway.app)
+
 ## Features
 
 - Fast and efficient web crawling using async I/O
