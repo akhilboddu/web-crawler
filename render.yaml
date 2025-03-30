@@ -3,6 +3,7 @@ services:
     name: web-crawler
     env: docker
     plan: free
+    region: oregon
     healthCheckPath: /
     envVars:
       - key: PORT
@@ -10,4 +11,6 @@ services:
     buildFilter:
       paths:
         - src/**
-        - Dockerfile 
+        - Dockerfile
+        - docker-compose.yml
+        - render.yaml 
