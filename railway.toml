@@ -6,7 +6,4 @@ dockerfile = "Dockerfile"
 healthcheck_path = "/"
 healthcheck_timeout = 10
 restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 3
-
-[deploy.envs]
-PYTHON_VERSION = "3.9" 
+restartPolicyMaxRetries = 3 
