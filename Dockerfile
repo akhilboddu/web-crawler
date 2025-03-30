@@ -21,5 +21,8 @@ RUN mkdir -p results
 # Make port available
 EXPOSE $PORT
 
-# Run the application
-CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port $PORT"] 
+# Make the start script executable
+RUN chmod +x start.sh
+
+# Run the application using the shell script
+CMD ["./start.sh"] 
