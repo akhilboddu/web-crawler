@@ -58,25 +58,53 @@ class WebCrawler:
                         title = soup.title.string if soup.title else 'No title'
                         title = title.strip()
 
+                        # Extract headings
+                        headings = []
+                        for h in soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']):
+                            text = h.get_text().strip()
+                            if text:
+                                headings.append(text)
+                        
+                        # Extract paragraphs
+                        paragraphs = []
+                        for p in soup.find_all('p'):
+                            text = p.get_text().strip()
+                            if text:
+                                paragraphs.append(text)
+                        
+                        # Extract links with text
                         links = []
                         for link in soup.find_all('a', href=True):
                             href = link['href']
                             if href and not href.startswith(('#', 'javascript:', 'mailto:', 'tel:')):
                                 clean_href = self.clean_url(urljoin(url, href))
                                 if clean_href:
-                                    links.append(clean_href)
+                                    link_text = link.get_text().strip()
+                                    links.append({
+                                        'text': link_text,
+                                        'href': clean_href
+                                    })
+
+                        # Also collect the raw URLs for crawling
+                        link_urls = [link['href'] for link in links]
 
                         return {
                             'success': True,
                             'title': title,
+                            'headings': headings,
+                            'paragraphs': paragraphs,
                             'links': links,
+                            'link_urls': link_urls,
                             'content_type': content_type
                         }
                     else:
                         return {
                             'success': True,
                             'title': url,
+                            'headings': [],
+                            'paragraphs': [],
                             'links': [],
+                            'link_urls': [],
                             'content_type': content_type
                         }
                 else:
@@ -105,6 +133,9 @@ class WebCrawler:
                 page_info = {
                     "url": clean_url,
                     "title": result['title'],
+                    "headings": result.get('headings', []),
+                    "paragraphs": result.get('paragraphs', []),
+                    "links": result.get('links', []),
                     "content_type": result['content_type'],
                     "depth": str(depth)
                 }
@@ -112,7 +143,7 @@ class WebCrawler:
                 logger.info(f"Crawled: {clean_url} (depth: {depth})")
 
                 if depth < max_depth:
-                    for link in result['links']:
+                    for link in result.get('link_urls', []):
                         if await self.is_same_domain(url, link):
                             await self.crawl_page(session, link, depth + 1, max_depth)
             else:
@@ -141,39 +172,29 @@ class WebCrawler:
         crawl_time = (end_time - start_time).total_seconds()
 
         result = {
-            "pages": self.discovered_pages,
+            "base_url": url,
             "total_pages": len(self.discovered_pages),
             "crawl_time": crawl_time,
             "start_time": start_time.isoformat(),
-            "end_time": end_time.isoformat()
+            "end_time": end_time.isoformat(),
+            "pages": self.discovered_pages
         }
 
         try:
-            with open('crawl_results.json', 'w') as f:
+            # Save results to a file with timestamp
+            filename = f"scraped_content_{urlparse(url).netloc.replace('.', '_')}_{datetime.now().strftime('%Y%m%d-%H%M%S')}.json"
+            with open(filename, 'w') as f:
                 json.dump(result, f, indent=2)
-            logger.info("Results saved to crawl_results.json")
+            logger.info(f"Results saved to {filename}")
         except Exception as e:
             logger.error(f"Error saving results: {str(e)}")
 
         return result
 
 async def crawl_website(url: str, max_pages: int = 10, max_depth: int = 2) -> dict:
-    """Wrapper function for the WebCrawler class to crawl a website"""
+    """Backward compatibility function to crawl a website"""
     crawler = WebCrawler()
-    result = await crawler.crawl(url, max_pages, max_depth)
-    
-    # Format the result to match expected API structure
-    stats = {
-        "total_pages": result["total_pages"],
-        "crawl_time": result["crawl_time"],
-        "start_time": result["start_time"],
-        "end_time": result["end_time"]
-    }
-    
-    return {
-        "pages": result["pages"],
-        "stats": stats
-    }
+    return await crawler.crawl(url, max_pages, max_depth)
 
 async def main():
     url = "https://www.zaio.io"
@@ -183,11 +204,12 @@ async def main():
     logger.info(f"Starting crawl for {url}")
     logger.info(f"Configuration: max_pages={max_pages}, max_depth={max_depth}")
 
-    result = await crawl_website(url, max_pages, max_depth)
+    crawler = WebCrawler()
+    result = await crawler.crawl(url, max_pages, max_depth)
 
     print("\nCrawl Results:")
-    print(f"Total pages crawled: {result['stats']['total_pages']}")
-    print(f"Crawl time: {result['stats']['crawl_time']:.2f} seconds")
+    print(f"Total pages crawled: {result['total_pages']}")
+    print(f"Crawl time: {result['crawl_time']:.2f} seconds")
     print("\nPages discovered:")
     for page in result['pages']:
         print(f"- {page['url']} (depth: {page['depth']})")
