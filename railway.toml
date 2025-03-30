@@ -1,0 +1,12 @@
+[build]
+builder = "DOCKERFILE"
+dockerfile = "Dockerfile"
+
+[deploy]
+healthcheck_path = "/health"
+healthcheck_timeout = 10
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
+
+[deploy.envs]
+PYTHON_VERSION = "3.9" 
