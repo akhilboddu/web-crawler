@@ -9,11 +9,11 @@ ENV PORT=8016
 WORKDIR /app
 
 # Copy requirements first to leverage Docker cache
-COPY src/requirements.txt /app/
+COPY src/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy source code
-COPY src/ /app/
+COPY src/ .
 
 # Create results directory
 RUN mkdir -p results
@@ -22,4 +22,4 @@ RUN mkdir -p results
 EXPOSE ${PORT}
 
 # Run the application
-CMD uvicorn app:app --host 0.0.0.0 --port ${PORT} 
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8016"] 

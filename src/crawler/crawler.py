@@ -157,6 +157,24 @@ class WebCrawler:
 
         return result
 
+async def crawl_website(url: str, max_pages: int = 10, max_depth: int = 2) -> dict:
+    """Wrapper function for the WebCrawler class to crawl a website"""
+    crawler = WebCrawler()
+    result = await crawler.crawl(url, max_pages, max_depth)
+    
+    # Format the result to match expected API structure
+    stats = {
+        "total_pages": result["total_pages"],
+        "crawl_time": result["crawl_time"],
+        "start_time": result["start_time"],
+        "end_time": result["end_time"]
+    }
+    
+    return {
+        "pages": result["pages"],
+        "stats": stats
+    }
+
 async def main():
     url = "https://www.zaio.io"
     max_pages = 10
@@ -165,12 +183,11 @@ async def main():
     logger.info(f"Starting crawl for {url}")
     logger.info(f"Configuration: max_pages={max_pages}, max_depth={max_depth}")
 
-    crawler = WebCrawler()
-    result = await crawler.crawl(url, max_pages, max_depth)
+    result = await crawl_website(url, max_pages, max_depth)
 
     print("\nCrawl Results:")
-    print(f"Total pages crawled: {result['total_pages']}")
-    print(f"Crawl time: {result['crawl_time']:.2f} seconds")
+    print(f"Total pages crawled: {result['stats']['total_pages']}")
+    print(f"Crawl time: {result['stats']['crawl_time']:.2f} seconds")
     print("\nPages discovered:")
     for page in result['pages']:
         print(f"- {page['url']} (depth: {page['depth']})")
