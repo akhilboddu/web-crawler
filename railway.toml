@@ -1,8 +1,0 @@
-[build]
-builder = "DOCKERFILE"
-
-[deploy]
-healthcheck_path = "/health"
-healthcheck_timeout = 10
-restartPolicyType = "on_failure"
-restartPolicyMaxRetries = 3 

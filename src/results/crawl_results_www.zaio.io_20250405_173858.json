@@ -1,0 +1,1010 @@
+{
+  "total_pages_processed": 22,
+  "successful_pages": 22,
+  "failed_pages": 0,
+  "crawl_time": 449.75083112716675,
+  "pages": [
+    {
+      "url": "https://www.zaio.io/",
+      "depth": 0,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Zaio offers accredited bootcamps designed to fast-track tech careers with real-world projects, expert support, and job placement assistance. They provide flexible payment options and 24/7 support through a strong community, AI Tutor, and expert tutors.",
+        "products_or_services": [
+          "Full Stack Web Development Bootcamp",
+          "Data Science Bootcamp",
+          "Cybersecurity Bootcamp",
+          "Web Development Fundamentals Micro Bootcamp",
+          "Front End coding with React.js Micro Bootcamp",
+          "Back End coding with Node.js Micro Bootcamp",
+          "Fundamentals of Python Micro Bootcamp",
+          "AI Essentials for Office Professionals Micro Bootcamp"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/community",
+        "https://www.zaio.io/virtual-graduation",
+        "https://www.zaio.io/fundamentals-of-python",
+        "https://www.zaio.io/aboutus",
+        "https://www.zaio.io/ai-essentials-for-office-professionals",
+        "https://www.zaio.io/cybersecurity-bootcamp",
+        "https://www.zaio.io/datascience-bootcamp",
+        "https://www.zaio.io/web-development-fundamentals",
+        "https://www.zaio.io/backend-coding-with-node",
+        "https://www.zaio.io/hall-of-fame-p",
+        "https://www.zaio.io/company",
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/frontend-coding-with-react",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "crawl_time": 22.591164112091064,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/app/getstarted",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio Technology",
+        "description_summary": "Revolutionizing coding education. Build industry experience & get hired. No coding experience required.",
+        "products_or_services": [
+          "Fullstack Web development",
+          "Frontend Engineering",
+          "Backend Engineering",
+          "Introduction to Coding"
+        ],
+        "contact_email": null,
+        "contact_phone": "+27 67 129 5424"
+      },
+      "links_found": [
+        "https://www.zaio.io/app/onboarding",
+        "https://www.zaio.io/learn",
+        "https://www.zaio.io/frontend",
+        "https://www.zaio.io/app/live-demo",
+        "https://www.zaio.io/app/",
+        "https://www.zaio.io/fullstack",
+        "https://www.zaio.io/introduction-to-coding",
+        "https://www.zaio.io/consultation",
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/backend"
+      ],
+      "crawl_time": 21.473852157592773,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/fundamentals-of-python",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials. These bootcamps are suitable for beginners and last between 1 to 4 weeks.",
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/backend-coding-with-node",
+        "https://www.zaio.io/web-development-fundamentals",
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/hall-of-fame-p",
+        "https://www.zaio.io/company",
+        "https://www.zaio.io/frontend-coding-with-react",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "crawl_time": 31.361541986465454,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/ai-essentials-for-office-professionals",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials. The AI Essentials for Office Professionals course helps individuals harness AI tools to boost productivity and enhance professional skills in just 2 weeks.",
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/backend-coding-with-node",
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/hall-of-fame-p",
+        "https://www.zaio.io/company",
+        "https://www.zaio.io/frontend-coding-with-react",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "crawl_time": 51.965187072753906,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/virtual-graduation",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": null,
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/hall-of-fame-p",
+        "https://www.zaio.io/company",
+        "https://www.zaio.io/frontend-coding-with-react",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "crawl_time": 63.517897844314575,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/cybersecurity-bootcamp",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Become a Job-Ready Cybersecurity Professional in 7 Months. Gain practical, in-demand cybersecurity skills to kickstart your career in one of the fastest-growing tech fields. No prior tech experience or degree is required.",
+        "products_or_services": [
+          "Cybersecurity Bootcamp",
+          "Full Stack Web Development",
+          "Data Science",
+          "Micro Bootcamps",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": "hello@zaio.io",
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/company",
+        "https://www.zaio.io/frontend-coding-with-react",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "crawl_time": 62.40423512458801,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/datascience-bootcamp",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Data Science bootcamp designed to equip students with in-demand skills for entry-level data science and engineering roles.",
+        "products_or_services": [
+          "Data Science Bootcamp",
+          "Full Stack Web Development",
+          "Cybersecurity",
+          "Micro Bootcamps",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": "hello@zaio.io",
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/frontend-coding-with-react",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "crawl_time": 66.91064095497131,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/web-development-fundamentals",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials. These bootcamps are suitable for beginners and last between 1 to 4 weeks.",
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/fullstack-bootcamp",
+        "https://www.zaio.io/apply-now"
+      ],
+      "crawl_time": 66.65166902542114,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/backend-coding-with-node",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials. The Backend Development with Node.js bootcamp teaches building powerful, scalable server-side applications using Node.js.",
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "crawl_time": 111.72474217414856,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/hall-of-fame-p",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Zaio offers coding bootcamps and micro bootcamps in various tech fields, providing tutor support and industry-relevant training.",
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "crawl_time": 117.52125287055969,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/company",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Zaio trains talent for digital roles offering fully remote, scalable and personalized training. They specialize in accredited skills training and corporate training tailored to meet specific needs and objectives, including BBBEE benefits.",
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": "hello@zaio.io",
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/skillsDevelopment"
+      ],
+      "crawl_time": 116.5283830165863,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/apply-now",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": null,
+        "products_or_services": [
+          "Fullstack Web Development Bootcamp",
+          "Data Science Bootcamp",
+          "Cybersecurity Bootcamp"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [],
+      "crawl_time": 101.74448490142822,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/frontend-coding-with-react",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials, suitable for beginners and lasting between 1 to 4 weeks.",
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [],
+      "crawl_time": 115.63563203811646,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/app/login",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio Technology",
+        "description_summary": "Revolutionizing coding education",
+        "products_or_services": [
+          "Fullstack Web development",
+          "Frontend Engineering",
+          "Backend Engineering",
+          "[FREE] Introduction to Coding"
+        ],
+        "contact_email": null,
+        "contact_phone": "+27 67 129 5424"
+      },
+      "links_found": [
+        "https://www.zaio.io/app/forgotpassword",
+        "https://www.zaio.io/backend",
+        "https://www.zaio.io/consultation"
+      ],
+      "crawl_time": 113.4879891872406,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/fullstack-bootcamp",
+      "depth": 1,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": "Learn practical, job-ready web developer skills to start your professional high-paying developer career in just 6 months. No degree or prior tech experience required.",
+        "products_or_services": [
+          "Full Stack Web Development Bootcamp",
+          "Data Science",
+          "Cybersecurity",
+          "Micro Bootcamps",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": "hello@zaio.io",
+        "contact_phone": null
+      },
+      "links_found": [],
+      "crawl_time": 109.19339489936829,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/app/onboarding",
+      "depth": 2,
+      "analysis": {
+        "company_name": "Zaio Institute of Technology",
+        "description_summary": "Start your coding journey and stay up to date with your tasks.",
+        "products_or_services": [
+          "coding education",
+          "online learning platform"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/terms",
+        "https://www.zaio.io/privacypolicy"
+      ],
+      "crawl_time": 108.41938996315002,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/app/live-demo",
+      "depth": 2,
+      "analysis": {
+        "company_name": "Zaio Technology",
+        "description_summary": "Revolutionizing coding education",
+        "products_or_services": [
+          "Fullstack Web development",
+          "Frontend Engineering",
+          "Backend Engineering",
+          "[FREE] Introduction to Coding"
+        ],
+        "contact_email": null,
+        "contact_phone": "+27 67 129 5424"
+      },
+      "links_found": [],
+      "crawl_time": 97.52694082260132,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/introduction-to-coding",
+      "depth": 2,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": null,
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.zaio.io/app/getstarted?=6288de8b721469e094dda1fb"
+      ],
+      "crawl_time": 96.80430483818054,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/consultation",
+      "depth": 2,
+      "analysis": {
+        "company_name": "Zaio",
+        "description_summary": null,
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [],
+      "crawl_time": 104.9543969631195,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/privacypolicy",
+      "depth": 3,
+      "analysis": {
+        "company_name": "Zaio Technology (Pty) Ltd",
+        "description_summary": "Zaio adheres to the highest standards of protecting your personal information when you use their website or services. They comply with South African data protection laws and provide detailed privacy policies.",
+        "products_or_services": [
+          "online coding education",
+          "privacy policy services"
+        ],
+        "contact_email": "info@zaio.io",
+        "contact_phone": null
+      },
+      "links_found": [],
+      "crawl_time": 92.0833170413971,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/terms",
+      "depth": 3,
+      "analysis": {
+        "company_name": "Zaio Technologies",
+        "description_summary": "Zaio Technologies provides online coding bootcamps and courses in various tech fields, including Full Stack Web Development, Data Science, Cybersecurity, and more. The company offers job interview opportunities to students who complete their bootcamps.",
+        "products_or_services": [
+          "Full Stack Web Development",
+          "Data Science",
+          "Cybersecurity",
+          "Web Development Fundamentals",
+          "Front End coding with React.js",
+          "Back End coding with Node.js",
+          "Fundamentals of Python",
+          "AI Essentials for Office Professionals"
+        ],
+        "contact_email": "hello@zaio.io",
+        "contact_phone": null
+      },
+      "links_found": [],
+      "crawl_time": 103.99616193771362,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/app/getstarted?=6288de8b721469e094dda1fb",
+      "depth": 3,
+      "analysis": {
+        "company_name": "Zaio Technology",
+        "description_summary": "Revolutionizing coding education.",
+        "products_or_services": [
+          "Fullstack Web development",
+          "Frontend Engineering",
+          "Backend Engineering",
+          "[FREE] Introduction to Coding"
+        ],
+        "contact_email": null,
+        "contact_phone": "+27 67 129 5424"
+      },
+      "links_found": [],
+      "crawl_time": 95.33251094818115,
+      "status": "success"
+    }
+  ],
+  "business_profile": {
+    "company_name": "Zaio",
+    "description_summary": "Zaio offers accredited bootcamps designed to fast-track tech careers with real-world projects, expert support, and job placement assistance. They provide flexible payment options and 24/7 support through a strong community, AI Tutor, and expert tutors.",
+    "products_or_services": [
+      "Fundamentals of Python",
+      "Back End coding with Node.js Micro Bootcamp",
+      "Frontend Engineering",
+      "Data Science",
+      "Fullstack Web Development Bootcamp",
+      "Full Stack Web Development",
+      "Web Development Fundamentals",
+      "online coding education",
+      "Front End coding with React.js Micro Bootcamp",
+      "AI Essentials for Office Professionals",
+      "Introduction to Coding",
+      "Front End coding with React.js",
+      "Cybersecurity",
+      "online learning platform",
+      "Fundamentals of Python Micro Bootcamp",
+      "Cybersecurity Bootcamp",
+      "coding education",
+      "Full Stack Web Development Bootcamp",
+      "privacy policy services",
+      "Backend Engineering",
+      "Back End coding with Node.js",
+      "Data Science Bootcamp",
+      "Web Development Fundamentals Micro Bootcamp",
+      "[FREE] Introduction to Coding",
+      "AI Essentials for Office Professionals Micro Bootcamp",
+      "Micro Bootcamps",
+      "Fullstack Web development"
+    ],
+    "contact_emails": [
+      "info@zaio.io",
+      "hello@zaio.io"
+    ],
+    "contact_phones": [
+      "+27 67 129 5424"
+    ],
+    "all_extracted_data": [
+      {
+        "url": "https://www.zaio.io/",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Zaio offers accredited bootcamps designed to fast-track tech careers with real-world projects, expert support, and job placement assistance. They provide flexible payment options and 24/7 support through a strong community, AI Tutor, and expert tutors.",
+          "products_or_services": [
+            "Full Stack Web Development Bootcamp",
+            "Data Science Bootcamp",
+            "Cybersecurity Bootcamp",
+            "Web Development Fundamentals Micro Bootcamp",
+            "Front End coding with React.js Micro Bootcamp",
+            "Back End coding with Node.js Micro Bootcamp",
+            "Fundamentals of Python Micro Bootcamp",
+            "AI Essentials for Office Professionals Micro Bootcamp"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/app/getstarted",
+        "analysis": {
+          "company_name": "Zaio Technology",
+          "description_summary": "Revolutionizing coding education. Build industry experience & get hired. No coding experience required.",
+          "products_or_services": [
+            "Fullstack Web development",
+            "Frontend Engineering",
+            "Backend Engineering",
+            "Introduction to Coding"
+          ],
+          "contact_email": null,
+          "contact_phone": "+27 67 129 5424"
+        }
+      },
+      {
+        "url": "https://www.zaio.io/fundamentals-of-python",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials. These bootcamps are suitable for beginners and last between 1 to 4 weeks.",
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/ai-essentials-for-office-professionals",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials. The AI Essentials for Office Professionals course helps individuals harness AI tools to boost productivity and enhance professional skills in just 2 weeks.",
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/virtual-graduation",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": null,
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/cybersecurity-bootcamp",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Become a Job-Ready Cybersecurity Professional in 7 Months. Gain practical, in-demand cybersecurity skills to kickstart your career in one of the fastest-growing tech fields. No prior tech experience or degree is required.",
+          "products_or_services": [
+            "Cybersecurity Bootcamp",
+            "Full Stack Web Development",
+            "Data Science",
+            "Micro Bootcamps",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": "hello@zaio.io",
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/datascience-bootcamp",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Data Science bootcamp designed to equip students with in-demand skills for entry-level data science and engineering roles.",
+          "products_or_services": [
+            "Data Science Bootcamp",
+            "Full Stack Web Development",
+            "Cybersecurity",
+            "Micro Bootcamps",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": "hello@zaio.io",
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/web-development-fundamentals",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials. These bootcamps are suitable for beginners and last between 1 to 4 weeks.",
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/backend-coding-with-node",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials. The Backend Development with Node.js bootcamp teaches building powerful, scalable server-side applications using Node.js.",
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/hall-of-fame-p",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Zaio offers coding bootcamps and micro bootcamps in various tech fields, providing tutor support and industry-relevant training.",
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/company",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Zaio trains talent for digital roles offering fully remote, scalable and personalized training. They specialize in accredited skills training and corporate training tailored to meet specific needs and objectives, including BBBEE benefits.",
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": "hello@zaio.io",
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/apply-now",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": null,
+          "products_or_services": [
+            "Fullstack Web Development Bootcamp",
+            "Data Science Bootcamp",
+            "Cybersecurity Bootcamp"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/frontend-coding-with-react",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Zaio offers fast-paced, online Micro Bootcamps designed to teach specific skills in web development, programming, and AI essentials, suitable for beginners and lasting between 1 to 4 weeks.",
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/app/login",
+        "analysis": {
+          "company_name": "Zaio Technology",
+          "description_summary": "Revolutionizing coding education",
+          "products_or_services": [
+            "Fullstack Web development",
+            "Frontend Engineering",
+            "Backend Engineering",
+            "[FREE] Introduction to Coding"
+          ],
+          "contact_email": null,
+          "contact_phone": "+27 67 129 5424"
+        }
+      },
+      {
+        "url": "https://www.zaio.io/fullstack-bootcamp",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": "Learn practical, job-ready web developer skills to start your professional high-paying developer career in just 6 months. No degree or prior tech experience required.",
+          "products_or_services": [
+            "Full Stack Web Development Bootcamp",
+            "Data Science",
+            "Cybersecurity",
+            "Micro Bootcamps",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": "hello@zaio.io",
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/app/onboarding",
+        "analysis": {
+          "company_name": "Zaio Institute of Technology",
+          "description_summary": "Start your coding journey and stay up to date with your tasks.",
+          "products_or_services": [
+            "coding education",
+            "online learning platform"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/app/live-demo",
+        "analysis": {
+          "company_name": "Zaio Technology",
+          "description_summary": "Revolutionizing coding education",
+          "products_or_services": [
+            "Fullstack Web development",
+            "Frontend Engineering",
+            "Backend Engineering",
+            "[FREE] Introduction to Coding"
+          ],
+          "contact_email": null,
+          "contact_phone": "+27 67 129 5424"
+        }
+      },
+      {
+        "url": "https://www.zaio.io/introduction-to-coding",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": null,
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/consultation",
+        "analysis": {
+          "company_name": "Zaio",
+          "description_summary": null,
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/privacypolicy",
+        "analysis": {
+          "company_name": "Zaio Technology (Pty) Ltd",
+          "description_summary": "Zaio adheres to the highest standards of protecting your personal information when you use their website or services. They comply with South African data protection laws and provide detailed privacy policies.",
+          "products_or_services": [
+            "online coding education",
+            "privacy policy services"
+          ],
+          "contact_email": "info@zaio.io",
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/terms",
+        "analysis": {
+          "company_name": "Zaio Technologies",
+          "description_summary": "Zaio Technologies provides online coding bootcamps and courses in various tech fields, including Full Stack Web Development, Data Science, Cybersecurity, and more. The company offers job interview opportunities to students who complete their bootcamps.",
+          "products_or_services": [
+            "Full Stack Web Development",
+            "Data Science",
+            "Cybersecurity",
+            "Web Development Fundamentals",
+            "Front End coding with React.js",
+            "Back End coding with Node.js",
+            "Fundamentals of Python",
+            "AI Essentials for Office Professionals"
+          ],
+          "contact_email": "hello@zaio.io",
+          "contact_phone": null
+        }
+      },
+      {
+        "url": "https://www.zaio.io/app/getstarted?=6288de8b721469e094dda1fb",
+        "analysis": {
+          "company_name": "Zaio Technology",
+          "description_summary": "Revolutionizing coding education.",
+          "products_or_services": [
+            "Fullstack Web development",
+            "Frontend Engineering",
+            "Backend Engineering",
+            "[FREE] Introduction to Coding"
+          ],
+          "contact_email": null,
+          "contact_phone": "+27 67 129 5424"
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "start_url": "https://www.zaio.io/",
+    "base_domain": "www.zaio.io",
+    "max_pages_limit": 50,
+    "max_depth_limit": 3,
+    "concurrency_limit": 5,
+    "timestamp": "2025-04-05T17:38:58.917038"
+  }
+}

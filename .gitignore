@@ -25,6 +25,9 @@ venv/
 env/
 ENV/
 
+# pytest cache
+.pytest_cache/
+
 # Environment variables
 .env
 
@@ -37,9 +40,4 @@ ENV/
 # Project specific
 src/crawl_results.json
 src/knowledge_base/
-src/results/
-src/old_test_results/
-
-# OS specific
-.DS_Store
-Thumbs.db 
+scraped_content.json 

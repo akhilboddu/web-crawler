@@ -1,0 +1,78 @@
+{
+  "total_pages_processed": 2,
+  "successful_pages": 1,
+  "failed_pages": 1,
+  "crawl_time": 76.32337379455566,
+  "pages": [
+    {
+      "url": "https://www.siza.io/",
+      "depth": 0,
+      "analysis": {
+        "company_name": "Siza",
+        "description_summary": "SAHPRA registered on-demand doctors providing digital prescriptions and virtual vital tests through online consultations.",
+        "products_or_services": [
+          "Virtual body vital tests",
+          "Emergency Mode for immediate doctor assistance",
+          "Digital prescription",
+          "Video consultation with doctors",
+          "Specialist recommendations"
+        ],
+        "contact_email": null,
+        "contact_phone": null
+      },
+      "links_found": [
+        "https://www.siza.io/how-it-works",
+        "https://www.siza.io/pricing",
+        "https://www.siza.io/about_us"
+      ],
+      "crawl_time": 28.604530811309814,
+      "status": "success"
+    },
+    {
+      "url": "https://www.siza.io/how-it-works",
+      "depth": 1,
+      "status": "error",
+      "error": "Error processing page https://www.siza.io/how-it-works (Depth 1): Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.siza.io/how-it-works\", waiting until \"load\"\n",
+      "crawl_time": 45.0753071308136
+    }
+  ],
+  "business_profile": {
+    "company_name": "Siza",
+    "description_summary": "SAHPRA registered on-demand doctors providing digital prescriptions and virtual vital tests through online consultations.",
+    "products_or_services": [
+      "Specialist recommendations",
+      "Virtual body vital tests",
+      "Emergency Mode for immediate doctor assistance",
+      "Video consultation with doctors",
+      "Digital prescription"
+    ],
+    "contact_emails": [],
+    "contact_phones": [],
+    "all_extracted_data": [
+      {
+        "url": "https://www.siza.io/",
+        "analysis": {
+          "company_name": "Siza",
+          "description_summary": "SAHPRA registered on-demand doctors providing digital prescriptions and virtual vital tests through online consultations.",
+          "products_or_services": [
+            "Virtual body vital tests",
+            "Emergency Mode for immediate doctor assistance",
+            "Digital prescription",
+            "Video consultation with doctors",
+            "Specialist recommendations"
+          ],
+          "contact_email": null,
+          "contact_phone": null
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "start_url": "https://www.siza.io/",
+    "base_domain": "www.siza.io",
+    "max_pages_limit": 3,
+    "max_depth_limit": 1,
+    "concurrency_limit": 5,
+    "timestamp": "2025-04-05T17:28:29.805891"
+  }
+}
