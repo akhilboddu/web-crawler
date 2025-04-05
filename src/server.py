@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, FileResponse
 from pydantic import BaseModel, HttpUrl, field_validator
 import logging
 import argparse
@@ -13,6 +13,8 @@ import asyncio
 from urllib.parse import urlparse
 import json
 import time
+import os
+from pathlib import Path
 
 # Configure logging
 logging.basicConfig(
@@ -20,6 +22,9 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+# Define results directory
+RESULTS_DIR = Path("/app/results")
 
 app = FastAPI(title="Web Crawler API")
 
@@ -129,6 +134,45 @@ async def get_status(task_id: str):
     if task_id not in crawl_progress:
         raise HTTPException(status_code=404, detail="Task not found")
     return crawl_progress[task_id]
+
+@app.get("/results/")
+async def list_results():
+    """List available result files"""
+    if not RESULTS_DIR.is_dir():
+        logger.warning(f"Results directory not found: {RESULTS_DIR}")
+        return [] # Return empty list if dir doesn't exist
+    
+    try:
+        result_files = [f for f in os.listdir(RESULTS_DIR) if f.endswith('.json') and os.path.isfile(RESULTS_DIR / f)]
+        return sorted(result_files) # Return sorted list
+    except Exception as e:
+        logger.error(f"Error listing results directory {RESULTS_DIR}: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail="Could not list result files.")
+
+@app.get("/results/{filename}")
+async def get_result_file(filename: str):
+    """Download a specific result file"""
+    if not RESULTS_DIR.is_dir():
+         raise HTTPException(status_code=404, detail=f"Results directory not found.")
+
+    try:
+        # Security: Ensure filename is just a filename and prevent path traversal
+        if "/" in filename or ".." in filename:
+            raise HTTPException(status_code=400, detail="Invalid filename.")
+            
+        file_path = RESULTS_DIR / filename
+
+        # Security: Double check it's a file and exists within the results dir
+        if not file_path.is_file() or not file_path.resolve().is_relative_to(RESULTS_DIR.resolve()):
+             raise HTTPException(status_code=404, detail=f"Result file not found or invalid: {filename}")
+
+        return FileResponse(path=file_path, filename=filename, media_type='application/json')
+
+    except HTTPException as http_exc: # Re-raise HTTP exceptions
+        raise http_exc
+    except Exception as e:
+        logger.error(f"Error accessing result file {filename}: {e}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Could not access result file: {filename}")
 
 async def run_crawl(task_id: str, request: CrawlRequest):
     """Run the crawl task"""
