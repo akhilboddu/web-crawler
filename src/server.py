@@ -143,8 +143,33 @@ async def list_results():
         return [] # Return empty list if dir doesn't exist
     
     try:
-        result_files = [f for f in os.listdir(RESULTS_DIR) if f.endswith('.json') and os.path.isfile(RESULTS_DIR / f)]
-        return sorted(result_files) # Return sorted list
+        results_data = []
+        for filename in os.listdir(RESULTS_DIR):
+            if filename.endswith('.json'):
+                file_path = RESULTS_DIR / filename
+                if file_path.is_file(): # Check if it is indeed a file
+                    try:
+                        # Get last modified time as Unix timestamp
+                        mtime_unix = os.path.getmtime(file_path)
+                        # Convert to datetime object and then to ISO format string
+                        generated_time_iso = datetime.fromtimestamp(mtime_unix).isoformat()
+                        
+                        results_data.append({
+                            "url": f"/results/{filename}",
+                            "generated_at": generated_time_iso
+                        })
+                    except Exception as time_err:
+                        logger.error(f"Could not get timestamp for {filename}: {time_err}")
+                        # Optionally append with null timestamp or skip
+                        results_data.append({
+                            "url": f"/results/{filename}",
+                            "generated_at": None
+                        })
+
+        # Sort results by timestamp (most recent first)
+        results_data.sort(key=lambda x: x.get('generated_at') or '0', reverse=True)
+        
+        return results_data
     except Exception as e:
         logger.error(f"Error listing results directory {RESULTS_DIR}: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail="Could not list result files.")
