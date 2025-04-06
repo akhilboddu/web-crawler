@@ -1,0 +1,697 @@
+{
+  "crawl_metadata": {
+    "start_url": "https://www.zaio.io/",
+    "base_domain": "zaio.io",
+    "results_file": null,
+    "crawl_start_time": "2025-04-06T22:59:19.963649",
+    "crawl_end_time": "2025-04-06T23:02:02.536445",
+    "total_crawl_time_seconds": 130.58226585388184,
+    "max_pages_limit": 15,
+    "max_depth_limit": 2,
+    "concurrency_limit": 5,
+    "resource_blocking_enabled": true,
+    "total_pages_processed": 3,
+    "total_urls_visited": 16,
+    "successful_pages_analyzed": 3,
+    "failed_or_error_pages": 0,
+    "final_queue_size": 34
+  },
+  "business_profile": {
+    "business_name": "Zaio",
+    "tagline_slogan": "Launch Your Tech Career",
+    "short_description": "Join our accredited bootcamps designed to fast-track your career with real-world projects, expert support, and get job placement support with flexible payment options.",
+    "long_description_about_us": "Zaio offers bootcamps in Fullstack Web Development, Data Science, and Cybersecurity, designed to help beginners launch their tech careers with expert support, flexible learning options, and guaranteed job placement assistance.",
+    "unique_selling_proposition_usp": [
+      "24/7 Support",
+      "Accredited bootcamps with certifications",
+      "Flexible Learning",
+      "Flexible Learning Options",
+      "Flexible payment plans",
+      "Guaranteed Placement Support",
+      "Hands-On Projects",
+      "Return On Investment",
+      "Tailored Training Programs"
+    ],
+    "products": [
+      {
+        "name": "Back End coding with Node.js",
+        "description": null,
+        "features": [],
+        "image_urls_mentioned": [],
+        "source_url": "https://www.zaio.io/backend-coding-with-node"
+      },
+      {
+        "name": "Cybersecurity",
+        "description": "Master Cybersecurity fundamentals and best practices. Gain the in-demand skills needed to launch your career in cybersecurity—faster.",
+        "features": [
+          "CompTIA Security+ certification",
+          "Beginner-friendly",
+          "7 Months duration"
+        ],
+        "image_urls_mentioned": [],
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "name": "Data Science",
+        "description": "Master Python, machine learning, data analysis, and SQL. Work on real-world data science projects and build your own machine learning models.",
+        "features": [
+          "Microsoft certification",
+          "Beginner-friendly",
+          "7 Months duration"
+        ],
+        "image_urls_mentioned": [],
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "name": "Fullstack Web Development",
+        "description": "Learn HTML, CSS, JavaScript, React, Node.js, and more. Build dynamic websites and applications that solve real-world problems.",
+        "features": [
+          "NQF Level 5 certification",
+          "Beginner-friendly",
+          "6 Months duration"
+        ],
+        "image_urls_mentioned": [],
+        "source_url": "https://www.zaio.io/"
+      }
+    ],
+    "services": [
+      {
+        "name": "24/7 Support",
+        "scope": "A meticulously designed system ensures you get 24/7 support through a strong community, AI Tutor, and our dedicated team of expert tutors available to assist you.",
+        "benefits": [
+          "Strong community support",
+          "AI Tutor",
+          "Dedicated team of expert tutors"
+        ],
+        "delivery_method": "Online",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "name": "Bootcamps",
+        "scope": "Full Stack Web Development, Data Science, Cybersecurity",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.zaio.io/backend-coding-with-node"
+      },
+      {
+        "name": "Corporate training",
+        "scope": "Packaging courses to meet the specific needs and objectives of corporate partners.",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.zaio.io/company"
+      },
+      {
+        "name": "Job Placement Support",
+        "scope": "From resume building to interview prep, we provide full career support. Guaranteed job placement assistance, ensuring that you’re connected to our hiring partners for real opportunities.",
+        "benefits": [
+          "Resume building",
+          "Interview coaching",
+          "Mock interviews",
+          "Direct connections to hiring partners"
+        ],
+        "delivery_method": "Online",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "name": "Micro Bootcamps",
+        "scope": "Web Development Fundamentals, Front End coding with React.js, Back End coding with Node.js, Fundamentals of Python, AI Essentials for Office Professionals",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.zaio.io/backend-coding-with-node"
+      },
+      {
+        "name": "Skills development",
+        "scope": "Accredited skills training to address IT skills gap and ensure maximum benefit.",
+        "benefits": [],
+        "delivery_method": "Fully remote",
+        "source_url": "https://www.zaio.io/company"
+      }
+    ],
+    "pricing_tiers": [
+      {
+        "tier_name": "Flexible Payment Plans",
+        "price": "R0/Month",
+        "currency": "ZAR",
+        "features_included": [
+          "Pay upfront",
+          "Pay in installments",
+          "Finance your education through partners like Manati and Capitec"
+        ],
+        "payment_terms": "Study now and pay at your own pace",
+        "source_url": "https://www.zaio.io/"
+      }
+    ],
+    "free_trials_demos": "Book a free Consultation",
+    "customer_segments": [
+      "Beginners in tech",
+      "Career changers",
+      "Corporate partners",
+      "Employers",
+      "Full-time workers looking to upskill",
+      "business",
+      "individuals"
+    ],
+    "use_cases_scenarios": [
+      "Secure your first tech job",
+      "Study while working full-time",
+      "Transform your passion into a thriving career"
+    ],
+    "pain_points_solved": [
+      "BBBEE (Broad-Based Black Economic Empowerment) benefits",
+      "Balancing learning with other commitments",
+      "Difficulty securing a tech job",
+      "IT skills gap",
+      "Lack of tech experience",
+      "Upfront education costs"
+    ],
+    "customer_testimonials": [
+      {
+        "quote": "Empowering Student Experiences through Zaio’s Courses",
+        "customer_name": "Sean Thompson, Zaio Student",
+        "source": "Website Text",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "quote": "Journey to becoming a Freelance Developer",
+        "customer_name": "Shalom Taiwo, Freelance Developer",
+        "source": "Website Text",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "quote": "Londiwe Transformed Her Dreams into Reality",
+        "customer_name": "Londiwe, Zaio Student Naspers ICT Programme",
+        "source": "Website Text",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "quote": "Transform Your Passion into a Thriving Career",
+        "customer_name": "Kate Malale, Developer Absa Johannesburg",
+        "source": "Website Text",
+        "source_url": "https://www.zaio.io/"
+      }
+    ],
+    "case_studies": [],
+    "success_metrics_kpis_mentioned": [
+      "0% Course completion rate",
+      "0% Salary increase per annum",
+      "22% projected growth in demand for web developers per year",
+      "83130 Recent Learners",
+      "BBBEE benefits",
+      "R0/Month Average Zaio Student Starting pay",
+      "Tangible improvement in workforce's coding proficiency"
+    ],
+    "guarantees_return_policy": "Guaranteed first interview with our bootcamp programmes",
+    "onboarding_process_description": "Book a free Consultation to get started",
+    "implementation_timelines": "Bootcamps range from 6 to 7 months",
+    "support_channels": [
+      "24/7 tutor support",
+      "AI Tutor",
+      "Dedicated team of expert tutors",
+      "Email",
+      "Strong community"
+    ],
+    "sales_contact_info": {
+      "email": "hello@zaio.io",
+      "phone": "+27 21 300 6808",
+      "contact_form_mention": true
+    },
+    "faqs": [
+      {
+        "question": "Can I study while working full-time?",
+        "answer": "Yes! Our flexible learning options, including live classes held at different times and recorded sessions, allow you to study while balancing a full-time job or other commitments.",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "question": "Do I need any prior coding or tech experience to join a bootcamp?",
+        "answer": "No, our bootcamps are designed for beginners! We teach you everything from the ground up, ensuring you develop the skills you need to succeed, even if you're new to tech.",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "question": "How do the live classes work?",
+        "answer": "We offer live classes twice a week—once in the morning and once in the evening, so you can choose the time that suits you. If you miss a session, don’t worry—recordings are available for you to catch up at your convenience.",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "question": "How flexible are the payment options?",
+        "answer": "We offer multiple payment options to fit your budget. You can pay upfront, in installments, or finance your education through partners like Manati and Capitec. This allows you to focus on learning while paying over time.",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "question": "What career outcomes can I expect after completing the bootcamp?",
+        "answer": "Zaio graduates have gone on to secure roles as web developers, data scientists, and junior software engineers. Our job placement support helps you land interviews, and our alumni network provides additional support as you navigate your job search.",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "question": "What happens if I fall behind in the course?",
+        "answer": "Don’t worry! Our 24/7 tutor support is here to help. You can reach out any time for assistance, and we’ll work with you to ensure you stay on track. Plus, you can catch up by watching recorded class sessions.",
+        "source_url": "https://www.zaio.io/"
+      },
+      {
+        "question": "What kind of job support does Zaio offer?",
+        "answer": "We offer guaranteed job placement assistance. This includes resume building, interview coaching, mock interviews, and direct connections to hiring partners to help you secure your first tech job.",
+        "source_url": "https://www.zaio.io/"
+      }
+    ],
+    "social_media_links": {
+      "linkedin": "https://www.linkedin.com/company/zaio-io/",
+      "twitter": "https://www.twitter.com/zaionite",
+      "facebook": "https://www.facebook.com/zaionite",
+      "instagram": "https://www.instagram.com/zaiocodingschool/"
+    },
+    "press_mentions_media_coverage": [],
+    "reviews_ratings_mentioned": [],
+    "integrations_api_availability": null,
+    "source_urls": [
+      "https://www.zaio.io/",
+      "https://www.zaio.io/backend-coding-with-node",
+      "https://www.zaio.io/company"
+    ],
+    "aggregated_company_summary": "Zaio is an accredited online training provider offering bootcamps in Fullstack Web Development, Data Science, and Cybersecurity, designed to fast-track careers with flexible, personalized learning and job placement support. They cater to both individuals and businesses, providing scalable, remote training programs to bridge IT skills gaps. Their offerings include corporate-tailored courses and micro bootcamps to meet diverse learning and workforce development needs.",
+    "base_domain": "zaio.io"
+  },
+  "pages": [
+    {
+      "url": "https://www.zaio.io/",
+      "depth": 0,
+      "analysis": {
+        "business_name": "Zaio",
+        "tagline_slogan": "Launch Your Tech Career",
+        "short_description": "Join our accredited bootcamps designed to fast-track your career with real-world projects, expert support, and get job placement support with flexible payment options.",
+        "long_description_about_us": "Zaio offers bootcamps in Fullstack Web Development, Data Science, and Cybersecurity, designed to help beginners launch their tech careers with expert support, flexible learning options, and guaranteed job placement assistance.",
+        "unique_selling_proposition_usp": [
+          "Flexible payment plans",
+          "24/7 Support",
+          "Guaranteed Placement Support",
+          "Flexible Learning Options",
+          "Accredited bootcamps with certifications"
+        ],
+        "products": [
+          {
+            "name": "Fullstack Web Development",
+            "description": "Learn HTML, CSS, JavaScript, React, Node.js, and more. Build dynamic websites and applications that solve real-world problems.",
+            "features": [
+              "NQF Level 5 certification",
+              "Beginner-friendly",
+              "6 Months duration"
+            ],
+            "image_urls_mentioned": [],
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "name": "Data Science",
+            "description": "Master Python, machine learning, data analysis, and SQL. Work on real-world data science projects and build your own machine learning models.",
+            "features": [
+              "Microsoft certification",
+              "Beginner-friendly",
+              "7 Months duration"
+            ],
+            "image_urls_mentioned": [],
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "name": "Cybersecurity",
+            "description": "Master Cybersecurity fundamentals and best practices. Gain the in-demand skills needed to launch your career in cybersecurity—faster.",
+            "features": [
+              "CompTIA Security+ certification",
+              "Beginner-friendly",
+              "7 Months duration"
+            ],
+            "image_urls_mentioned": [],
+            "source_url": "https://www.zaio.io/"
+          }
+        ],
+        "services": [
+          {
+            "name": "Job Placement Support",
+            "scope": "From resume building to interview prep, we provide full career support. Guaranteed job placement assistance, ensuring that you’re connected to our hiring partners for real opportunities.",
+            "benefits": [
+              "Resume building",
+              "Interview coaching",
+              "Mock interviews",
+              "Direct connections to hiring partners"
+            ],
+            "delivery_method": "Online",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "name": "24/7 Support",
+            "scope": "A meticulously designed system ensures you get 24/7 support through a strong community, AI Tutor, and our dedicated team of expert tutors available to assist you.",
+            "benefits": [
+              "Strong community support",
+              "AI Tutor",
+              "Dedicated team of expert tutors"
+            ],
+            "delivery_method": "Online",
+            "source_url": "https://www.zaio.io/"
+          }
+        ],
+        "pricing_tiers": [
+          {
+            "tier_name": "Flexible Payment Plans",
+            "price": "R0/Month",
+            "currency": "ZAR",
+            "features_included": [
+              "Pay upfront",
+              "Pay in installments",
+              "Finance your education through partners like Manati and Capitec"
+            ],
+            "payment_terms": "Study now and pay at your own pace",
+            "source_url": "https://www.zaio.io/"
+          }
+        ],
+        "free_trials_demos": "Book a free Consultation",
+        "customer_segments": [
+          "Beginners in tech",
+          "Career changers",
+          "Full-time workers looking to upskill"
+        ],
+        "use_cases_scenarios": [
+          "Transform your passion into a thriving career",
+          "Study while working full-time",
+          "Secure your first tech job"
+        ],
+        "pain_points_solved": [
+          "Lack of tech experience",
+          "Difficulty securing a tech job",
+          "Balancing learning with other commitments",
+          "Upfront education costs"
+        ],
+        "customer_testimonials": [
+          {
+            "quote": "Transform Your Passion into a Thriving Career",
+            "customer_name": "Kate Malale, Developer Absa Johannesburg",
+            "source": "Website Text",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "quote": "Journey to becoming a Freelance Developer",
+            "customer_name": "Shalom Taiwo, Freelance Developer",
+            "source": "Website Text",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "quote": "Empowering Student Experiences through Zaio’s Courses",
+            "customer_name": "Sean Thompson, Zaio Student",
+            "source": "Website Text",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "quote": "Londiwe Transformed Her Dreams into Reality",
+            "customer_name": "Londiwe, Zaio Student Naspers ICT Programme",
+            "source": "Website Text",
+            "source_url": "https://www.zaio.io/"
+          }
+        ],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [
+          "83130 Recent Learners",
+          "0% Course completion rate",
+          "0% Salary increase per annum",
+          "R0/Month Average Zaio Student Starting pay",
+          "22% projected growth in demand for web developers per year"
+        ],
+        "guarantees_return_policy": "Guaranteed first interview with our bootcamp programmes",
+        "onboarding_process_description": "Book a free Consultation to get started",
+        "implementation_timelines": "Bootcamps range from 6 to 7 months",
+        "support_channels": [
+          "24/7 tutor support",
+          "Strong community",
+          "AI Tutor",
+          "Dedicated team of expert tutors"
+        ],
+        "sales_contact_info": {
+          "email": null,
+          "phone": null,
+          "contact_form_mention": true
+        },
+        "faqs": [
+          {
+            "question": "Do I need any prior coding or tech experience to join a bootcamp?",
+            "answer": "No, our bootcamps are designed for beginners! We teach you everything from the ground up, ensuring you develop the skills you need to succeed, even if you're new to tech.",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "question": "How do the live classes work?",
+            "answer": "We offer live classes twice a week—once in the morning and once in the evening, so you can choose the time that suits you. If you miss a session, don’t worry—recordings are available for you to catch up at your convenience.",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "question": "What kind of job support does Zaio offer?",
+            "answer": "We offer guaranteed job placement assistance. This includes resume building, interview coaching, mock interviews, and direct connections to hiring partners to help you secure your first tech job.",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "question": "How flexible are the payment options?",
+            "answer": "We offer multiple payment options to fit your budget. You can pay upfront, in installments, or finance your education through partners like Manati and Capitec. This allows you to focus on learning while paying over time.",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "question": "What happens if I fall behind in the course?",
+            "answer": "Don’t worry! Our 24/7 tutor support is here to help. You can reach out any time for assistance, and we’ll work with you to ensure you stay on track. Plus, you can catch up by watching recorded class sessions.",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "question": "What career outcomes can I expect after completing the bootcamp?",
+            "answer": "Zaio graduates have gone on to secure roles as web developers, data scientists, and junior software engineers. Our job placement support helps you land interviews, and our alumni network provides additional support as you navigate your job search.",
+            "source_url": "https://www.zaio.io/"
+          },
+          {
+            "question": "Can I study while working full-time?",
+            "answer": "Yes! Our flexible learning options, including live classes held at different times and recorded sessions, allow you to study while balancing a full-time job or other commitments.",
+            "source_url": "https://www.zaio.io/"
+          }
+        ],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "Homepage",
+        "extracted_from_url": "https://www.zaio.io/"
+      },
+      "links_found": [
+        "https://www.zaio.io/frontend-coding-with-react",
+        "https://www.zaio.io/app/login",
+        "https://www.zaio.io/company",
+        "https://www.zaio.io/virtual-graduation",
+        "https://www.zaio.io/backend-coding-with-node",
+        "https://blog.zaio.io/",
+        "https://www.zaio.io/aboutus",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/community",
+        "https://www.zaio.io/cybersecurity-bootcamp",
+        "https://www.zaio.io/web-development-fundamentals",
+        "https://www.zaio.io/hall-of-fame-p",
+        "https://www.zaio.io/datascience-bootcamp",
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/fundamentals-of-python",
+        "https://www.zaio.io/ai-essentials-for-office-professionals",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/zaio-io/",
+        "twitter": "https://www.twitter.com/zaionite",
+        "facebook": "https://www.facebook.com/zaionite",
+        "instagram": "https://www.instagram.com/zaiocodingschool/"
+      },
+      "crawl_time": 78.29964804649353,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/company",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Zaio",
+        "tagline_slogan": "Zaio trains talent for digital roles",
+        "short_description": "Zaio offers fully remote, scalable and personalised training for digital roles.",
+        "long_description_about_us": "Zaio specializes in accredited skills training to address IT skills gap and ensure maximum benefit. They also offer corporate training, packaging courses to meet the specific needs and objectives of corporate partners.",
+        "unique_selling_proposition_usp": [
+          "Tailored Training Programs",
+          "Flexible Learning",
+          "Hands-On Projects",
+          "Return On Investment"
+        ],
+        "products": [],
+        "services": [
+          {
+            "name": "Skills development",
+            "scope": "Accredited skills training to address IT skills gap and ensure maximum benefit.",
+            "benefits": [],
+            "delivery_method": "Fully remote",
+            "source_url": "https://www.zaio.io/company"
+          },
+          {
+            "name": "Corporate training",
+            "scope": "Packaging courses to meet the specific needs and objectives of corporate partners.",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.zaio.io/company"
+          }
+        ],
+        "pricing_tiers": [],
+        "free_trials_demos": null,
+        "customer_segments": [
+          "Corporate partners",
+          "Employers"
+        ],
+        "use_cases_scenarios": [],
+        "pain_points_solved": [
+          "IT skills gap",
+          "BBBEE (Broad-Based Black Economic Empowerment) benefits"
+        ],
+        "customer_testimonials": [],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [
+          "Tangible improvement in workforce's coding proficiency",
+          "BBBEE benefits"
+        ],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [
+          "Email"
+        ],
+        "sales_contact_info": {
+          "email": "hello@zaio.io",
+          "phone": null,
+          "contact_form_mention": false
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "About Us",
+        "extracted_from_url": "https://www.zaio.io/company"
+      },
+      "links_found": [
+        "https://www.zaio.io/skillsDevelopment",
+        "https://blog.zaio.io/",
+        "https://www.zaio.io/aboutus",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/community",
+        "https://www.zaio.io/cybersecurity-bootcamp",
+        "https://www.zaio.io/web-development-fundamentals",
+        "https://www.zaio.io/hall-of-fame-p",
+        "https://www.zaio.io/datascience-bootcamp",
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/fundamentals-of-python",
+        "https://www.zaio.io/ai-essentials-for-office-professionals",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/zaio-io/",
+        "twitter": "https://www.twitter.com/zaionite",
+        "facebook": "https://www.facebook.com/zaionite",
+        "instagram": "https://www.instagram.com/zaiocodingschool/"
+      },
+      "crawl_time": 28.482522010803223,
+      "status": "success"
+    },
+    {
+      "url": "https://www.zaio.io/backend-coding-with-node",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Zaio Technology",
+        "tagline_slogan": "Revolutionizing coding education",
+        "short_description": "Zaio offers coding bootcamps and micro bootcamps to help individuals and businesses learn essential tech skills.",
+        "long_description_about_us": null,
+        "unique_selling_proposition_usp": [],
+        "products": [
+          {
+            "name": "Back End coding with Node.js",
+            "description": null,
+            "features": [],
+            "image_urls_mentioned": [],
+            "source_url": "https://www.zaio.io/backend-coding-with-node"
+          }
+        ],
+        "services": [
+          {
+            "name": "Bootcamps",
+            "scope": "Full Stack Web Development, Data Science, Cybersecurity",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.zaio.io/backend-coding-with-node"
+          },
+          {
+            "name": "Micro Bootcamps",
+            "scope": "Web Development Fundamentals, Front End coding with React.js, Back End coding with Node.js, Fundamentals of Python, AI Essentials for Office Professionals",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.zaio.io/backend-coding-with-node"
+          }
+        ],
+        "pricing_tiers": [],
+        "free_trials_demos": null,
+        "customer_segments": [
+          "individuals",
+          "business"
+        ],
+        "use_cases_scenarios": [],
+        "pain_points_solved": [],
+        "customer_testimonials": [],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [],
+        "guarantees_return_policy": "Refund Policy",
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": null,
+          "phone": "+27 21 300 6808",
+          "contact_form_mention": null
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "Product Detail",
+        "extracted_from_url": "https://www.zaio.io/backend-coding-with-node"
+      },
+      "links_found": [
+        "https://blog.zaio.io/",
+        "https://www.zaio.io/aboutus",
+        "https://www.zaio.io/apply-now",
+        "https://www.zaio.io/community",
+        "https://www.zaio.io/cybersecurity-bootcamp",
+        "https://www.zaio.io/web-development-fundamentals",
+        "https://www.zaio.io/hall-of-fame-p",
+        "https://www.zaio.io/datascience-bootcamp",
+        "https://www.zaio.io/refundPolicy",
+        "https://www.zaio.io/fundamentals-of-python",
+        "https://www.zaio.io/ai-essentials-for-office-professionals",
+        "https://www.zaio.io/fullstack-bootcamp"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/zaio-io/",
+        "twitter": "https://www.twitter.com/zaionite",
+        "facebook": "https://www.facebook.com/zaionite",
+        "instagram": "https://www.instagram.com/zaiocodingschool/"
+      },
+      "crawl_time": 51.124229192733765,
+      "status": "success"
+    }
+  ]
+}

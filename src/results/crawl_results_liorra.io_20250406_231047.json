@@ -1,0 +1,1249 @@
+{
+  "crawl_metadata": {
+    "start_url": "https://www.liorra.io",
+    "base_domain": "liorra.io",
+    "results_file": null,
+    "crawl_start_time": "2025-04-06T23:06:13.492702",
+    "crawl_end_time": "2025-04-06T23:10:47.125102",
+    "total_crawl_time_seconds": 264.17388701438904,
+    "max_pages_limit": 25,
+    "max_depth_limit": 2,
+    "concurrency_limit": 5,
+    "resource_blocking_enabled": true,
+    "total_pages_processed": 8,
+    "total_urls_visited": 26,
+    "successful_pages_analyzed": 8,
+    "failed_or_error_pages": 0,
+    "final_queue_size": 126
+  },
+  "business_profile": {
+    "business_name": "Liorra",
+    "tagline_slogan": "The leading software development company in South Africa",
+    "short_description": "Liorra is an award-winning, custom software development company that designs, builds and launches world-class software solutions at high speed while saving costs.",
+    "long_description_about_us": "Our firm's aim is always to take the product to market as quickly as possible and use iterative software development approach until we achieve all business goals, fulfil market & user needs, and develop unique differentiators and features.",
+    "unique_selling_proposition_usp": [
+      "Access to the latest training and knowledge of the industry",
+      "Africa Operating Focus",
+      "Africa's leading custom software development firm",
+      "Client Focus",
+      "Cost-Effective Solutions",
+      "Cost-effective services and rapid project completion",
+      "Cost-saving solutions",
+      "Custom app development designed with specific target audience in mind",
+      "Exceptional User Experience",
+      "Helps companies at any stage of the product software development cycle",
+      "High-speed software development",
+      "Latest technologies and Agile Methodology",
+      "Optimized for All Devices",
+      "Research-led",
+      "Sales office in Sandton",
+      "Strong development methodologies",
+      "Team of 26 specialists",
+      "Technical Excellence",
+      "Transparent working process",
+      "World-class software solutions"
+    ],
+    "products": [
+      {
+        "name": "Tap-Tap",
+        "description": "A peer-to-peer mobile payment solution powered by Bluetooth Low Energy (BLE) technology which makes it safe and simple to make and receive in person mobile payments.",
+        "features": [
+          "Tap-on-phone – The Payment SDK will allow small merchants to accept contactless card payments directly on their smartphone, without requiring expensive payment acceptance devices.",
+          "Proximity payments – The payment SDK will allow anyone to make and accept payments to anyone nearby through Bluetooth. This is particularly attractive as the payment experience emulates that of ApplePay, SamsungPay, etc. but does not require the device to have an NFC sensor and works on low-end smartphones."
+        ],
+        "image_urls_mentioned": [],
+        "source_url": "https://www.liorra.io/project/taptap-capitec-bank"
+      }
+    ],
+    "services": [
+      {
+        "name": "Cloud Security",
+        "scope": "Help organisations to predict, prevent, detect, and respond to attacks in IaaS, PaaS, and SaaS cloud implementations, across multiple providers, at all stages of adoption",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/services/cyber-security"
+      },
+      {
+        "name": "Concept Validation",
+        "scope": null,
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/contact"
+      },
+      {
+        "name": "Custom Software Development",
+        "scope": "Helps companies at any stage of the product software development cycle: from R&D and building MVP from scratch, to scaling, UX analyzing, management and consultation.",
+        "benefits": [
+          "Professionalism",
+          "Attention to detail",
+          "Timely communication",
+          "Highly organized",
+          "Ability to execute concepts",
+          "Development prowess",
+          "Active client involvement",
+          "Frequent, insightful, and professional communication",
+          "Receptive to suggestions and input",
+          "Collaborative approach"
+        ],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/about"
+      },
+      {
+        "name": "Cyber Defence",
+        "scope": "Use our extensive knowledge of real-world attacker TTPs to deliver effective offensive, defensive and collaborative client engagements across various specialties",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/services/cyber-security"
+      },
+      {
+        "name": "Design Your App",
+        "scope": null,
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/contact"
+      },
+      {
+        "name": "DevSecOps Consultancy",
+        "scope": "Help organisations to improve or adapt security practices in their software development process",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/services/cyber-security"
+      },
+      {
+        "name": "Digital Forensics and IR",
+        "scope": "Provide incident readiness consultancy services to help organisations prepare for cyber-attack as well as rapid assistance for security breaches, containing the incident to allow effective remediation and recovery",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/services/cyber-security"
+      },
+      {
+        "name": "Hybrid App Development",
+        "scope": "Utilizing the latest in hybrid app frameworks like React Native and Flutter, we create apps that run smoothly on both iOS and Android from a single codebase, speeding up development and reducing costs.",
+        "benefits": [
+          "Rapid Market Entry",
+          "High Performance and Scalability",
+          "Cross-Platform Reach"
+        ],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/services/mobile-app-development"
+      },
+      {
+        "name": "Maintenance and Support",
+        "scope": "We ensure your systems is always up and running, and there are constant improvements made.",
+        "benefits": [
+          "System uptime",
+          "Constant improvements"
+        ],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/"
+      },
+      {
+        "name": "Managed Services",
+        "scope": "Provide continuous services that assist clients in managing their internet-exposed estates, through external asset mapping and vulnerability management services",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/services/cyber-security"
+      },
+      {
+        "name": "Mobile App Development",
+        "scope": "We use hybrid technologies that lets us ship your app to market, faster, while still maintaining a world-class mobile user experience.",
+        "benefits": [
+          "Faster time to market",
+          "World-class mobile user experience"
+        ],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/"
+      },
+      {
+        "name": "Other",
+        "scope": null,
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/contact"
+      },
+      {
+        "name": "Product design & Prototyping",
+        "scope": "Our team will help you bring your idea into a reality. We design world-class apps & systems that will delight your users and achieve business goals. This includes scoping the system, wire-framing and user interface designs.",
+        "benefits": [
+          "Delight users",
+          "Achieve business goals"
+        ],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/"
+      },
+      {
+        "name": "Security Assurance",
+        "scope": "Comprehensively assess web and mobile applications, the underlying APIs that they consume, as well as external and internal network infrastructure",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/services/cyber-security"
+      },
+      {
+        "name": "Strategic Consultancy",
+        "scope": "Utilise in-house security expertise to advise and consult on cyber security strategy, organisational maturity and security assurance testing roadmaps",
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/services/cyber-security"
+      },
+      {
+        "name": "UX/UI Audit",
+        "scope": null,
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/contact"
+      },
+      {
+        "name": "Web App Development",
+        "scope": null,
+        "benefits": [],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/contact"
+      },
+      {
+        "name": "Web Development",
+        "scope": "We build world-class, robust web systems for scalability.",
+        "benefits": [
+          "Scalability"
+        ],
+        "delivery_method": null,
+        "source_url": "https://www.liorra.io/"
+      }
+    ],
+    "pricing_tiers": [],
+    "free_trials_demos": "Book Your Free Consultation – Transform Your Mobile Strategy Now!",
+    "customer_segments": [
+      "Banking",
+      "Businesses in various sectors including retail, health and wellness, and fintech",
+      "Energy",
+      "Enterprises",
+      "Founders",
+      "Funded Scale-Ups",
+      "Insurance",
+      "Media",
+      "Technology",
+      "Telecoms"
+    ],
+    "use_cases_scenarios": [
+      "Designing",
+      "Expanding on the demand for health and wellness apps",
+      "Full-Scale development",
+      "Investing in retail and delivery apps",
+      "Leveraging mobile commerce & fintech apps",
+      "Prototyping"
+    ],
+    "pain_points_solved": [
+      "Ensuring high-quality, uninterrupted service, robust security measures since we were dealing with financial services.",
+      "High development costs",
+      "Lack of maintenance and support",
+      "Need for improved accessibility",
+      "Need for improved competitive edge",
+      "Need for increased customer engagement",
+      "Need for increased market share",
+      "Need for streamlined operations",
+      "Poor user experience",
+      "Slow time to market",
+      "System scalability issues",
+      "Using bluetooth technology to make and receive in person mobile payments."
+    ],
+    "customer_testimonials": [
+      {
+        "quote": "Liorra excels in software development by actively involving clients in the process. They maintain frequent, insightful, and professional communication and make themselves available for regular feedback sessions. Furthermore, they are receptive to suggestions and input, encouraging a collaborative approach.",
+        "customer_name": "Miki von Ketelhodt",
+        "source": "Website Text",
+        "source_url": "https://www.liorra.io/"
+      },
+      {
+        "quote": "The team was highly organized and internal stakeholders were particularly impressed with their ability to execute concepts and development prowess.",
+        "customer_name": "Thamsanqa Sibiya",
+        "source": "Website Text",
+        "source_url": "https://www.liorra.io/"
+      },
+      {
+        "quote": "Their team of experts worked diligently to ensure that my app was designed and developed to meet my exact specifications. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free.",
+        "customer_name": "Karan",
+        "source": "Website Text",
+        "source_url": "https://www.liorra.io/"
+      }
+    ],
+    "case_studies": [
+      {
+        "title_or_summary": "Inflows - LinkedIn Automation Tool",
+        "customer_name": null,
+        "problem": null,
+        "solution": null,
+        "results_metrics": [],
+        "source_url": "https://www.liorra.io/"
+      },
+      {
+        "title_or_summary": "TapTap - Capitec Bank",
+        "customer_name": "Capitec Bank",
+        "problem": null,
+        "solution": null,
+        "results_metrics": [],
+        "source_url": "https://www.liorra.io/"
+      },
+      {
+        "title_or_summary": "Wecare - Health App",
+        "customer_name": null,
+        "problem": null,
+        "solution": null,
+        "results_metrics": [],
+        "source_url": "https://www.liorra.io/"
+      },
+      {
+        "title_or_summary": "Yoma - UNICEF",
+        "customer_name": "UNICEF",
+        "problem": null,
+        "solution": null,
+        "results_metrics": [],
+        "source_url": "https://www.liorra.io/"
+      }
+    ],
+    "success_metrics_kpis_mentioned": [
+      "100 Sleepless Hours",
+      "1000+ Cups of Coffee",
+      "26 Hero Members",
+      "5.0 Based on Clutch Reviews",
+      "98% Positive Feedback"
+    ],
+    "guarantees_return_policy": null,
+    "onboarding_process_description": null,
+    "implementation_timelines": "2 years",
+    "support_channels": [],
+    "sales_contact_info": {
+      "email": "hello@liorra.io",
+      "phone": "+27 21 813 9767",
+      "contact_form_mention": true
+    },
+    "faqs": [],
+    "social_media_links": {
+      "linkedin": "https://www.linkedin.com/company/liorra",
+      "twitter": "https://twitter.com/liorraTech"
+    },
+    "press_mentions_media_coverage": [
+      "Rated as South Africa's Top Mobile & Web Development Company by Clutch"
+    ],
+    "reviews_ratings_mentioned": [
+      "5.0 Based on Clutch Reviews"
+    ],
+    "integrations_api_availability": null,
+    "source_urls": [
+      "https://www.liorra.io/",
+      "https://www.liorra.io/about",
+      "https://www.liorra.io/blog",
+      "https://www.liorra.io/contact",
+      "https://www.liorra.io/post/the-role-of-app-development-for-businesses-in-2024-a-comprehensive-guide",
+      "https://www.liorra.io/project/taptap-capitec-bank",
+      "https://www.liorra.io/services/cyber-security",
+      "https://www.liorra.io/services/mobile-app-development"
+    ],
+    "aggregated_company_summary": "Liorra is an award-winning, custom software development and cybersecurity consultancy based in Sandton, South Africa, specializing in designing and launching high-quality digital products quickly and cost-effectively. With a team of 26 specialists, the company supports clients at every stage of the software development lifecycle—from MVP creation to scaling and cybersecurity resilience—while serving over 150 global businesses. Known for its technical excellence and client-centric approach, Liorra partners with startups and large corporations to deliver innovative, secure, and market-ready solutions tailored to Africa's unique challenges.",
+    "base_domain": "liorra.io"
+  },
+  "pages": [
+    {
+      "url": "https://www.liorra.io/",
+      "depth": 0,
+      "analysis": {
+        "business_name": "Liorra",
+        "tagline_slogan": "The leading software development company in South Africa",
+        "short_description": "Liorra is an award-winning, custom software development company that designs, builds and launches world-class software solutions at high speed while saving costs.",
+        "long_description_about_us": "Our firm's aim is always to take the product to market as quickly as possible and use iterative software development approach until we achieve all business goals, fulfil market & user needs, and develop unique differentiators and features.",
+        "unique_selling_proposition_usp": [
+          "High-speed software development",
+          "Cost-saving solutions",
+          "World-class software solutions",
+          "Latest technologies and Agile Methodology",
+          "Transparent working process"
+        ],
+        "products": [],
+        "services": [
+          {
+            "name": "Mobile App Development",
+            "scope": "We use hybrid technologies that lets us ship your app to market, faster, while still maintaining a world-class mobile user experience.",
+            "benefits": [
+              "Faster time to market",
+              "World-class mobile user experience"
+            ],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/"
+          },
+          {
+            "name": "Product design & Prototyping",
+            "scope": "Our team will help you bring your idea into a reality. We design world-class apps & systems that will delight your users and achieve business goals. This includes scoping the system, wire-framing and user interface designs.",
+            "benefits": [
+              "Delight users",
+              "Achieve business goals"
+            ],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/"
+          },
+          {
+            "name": "Web Development",
+            "scope": "We build world-class, robust web systems for scalability.",
+            "benefits": [
+              "Scalability"
+            ],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/"
+          },
+          {
+            "name": "Maintenance and Support",
+            "scope": "We ensure your systems is always up and running, and there are constant improvements made.",
+            "benefits": [
+              "System uptime",
+              "Constant improvements"
+            ],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/"
+          }
+        ],
+        "pricing_tiers": [],
+        "free_trials_demos": null,
+        "customer_segments": [
+          "Founders",
+          "Funded Scale-Ups",
+          "Enterprises"
+        ],
+        "use_cases_scenarios": [
+          "Prototyping",
+          "Designing",
+          "Full-Scale development"
+        ],
+        "pain_points_solved": [
+          "Slow time to market",
+          "High development costs",
+          "Poor user experience",
+          "System scalability issues",
+          "Lack of maintenance and support"
+        ],
+        "customer_testimonials": [
+          {
+            "quote": "Their team of experts worked diligently to ensure that my app was designed and developed to meet my exact specifications. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free.",
+            "customer_name": "Karan",
+            "source": "Website Text",
+            "source_url": "https://www.liorra.io/"
+          },
+          {
+            "quote": "The team was highly organized and internal stakeholders were particularly impressed with their ability to execute concepts and development prowess.",
+            "customer_name": "Thamsanqa Sibiya",
+            "source": "Website Text",
+            "source_url": "https://www.liorra.io/"
+          },
+          {
+            "quote": "Liorra excels in software development by actively involving clients in the process. They maintain frequent, insightful, and professional communication and make themselves available for regular feedback sessions. Furthermore, they are receptive to suggestions and input, encouraging a collaborative approach.",
+            "customer_name": "Miki von Ketelhodt",
+            "source": "Website Text",
+            "source_url": "https://www.liorra.io/"
+          }
+        ],
+        "case_studies": [
+          {
+            "title_or_summary": "Yoma - UNICEF",
+            "customer_name": "UNICEF",
+            "problem": null,
+            "solution": null,
+            "results_metrics": [],
+            "source_url": "https://www.liorra.io/"
+          },
+          {
+            "title_or_summary": "TapTap - Capitec Bank",
+            "customer_name": "Capitec Bank",
+            "problem": null,
+            "solution": null,
+            "results_metrics": [],
+            "source_url": "https://www.liorra.io/"
+          },
+          {
+            "title_or_summary": "Inflows - LinkedIn Automation Tool",
+            "customer_name": null,
+            "problem": null,
+            "solution": null,
+            "results_metrics": [],
+            "source_url": "https://www.liorra.io/"
+          },
+          {
+            "title_or_summary": "Wecare - Health App",
+            "customer_name": null,
+            "problem": null,
+            "solution": null,
+            "results_metrics": [],
+            "source_url": "https://www.liorra.io/"
+          }
+        ],
+        "success_metrics_kpis_mentioned": [],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": "hello@liorra.io",
+          "phone": "+27 21 813 9767",
+          "contact_form_mention": true
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [
+          "Rated as South Africa's Top Mobile & Web Development Company by Clutch"
+        ],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "Homepage",
+        "extracted_from_url": "https://www.liorra.io/"
+      },
+      "links_found": [
+        "https://www.liorra.io/contact",
+        "https://www.liorra.io/post/the-role-of-app-development-for-businesses-in-2024-a-comprehensive-guide",
+        "https://www.liorra.io/about",
+        "https://www.liorra.io/blog",
+        "https://www.liorra.io/services/mobile-app-development",
+        "https://www.liorra.io/project/taptap-capitec-bank",
+        "https://www.liorra.io/services/cyber-security",
+        "https://www.liorra.io/project/wecare-health-app",
+        "https://www.liorra.io/post/a-comprehensive-guide-to-software-scalability-in-app-development",
+        "https://www.liorra.io/post-category/collaboration",
+        "https://www.liorra.io/services/web-app-development",
+        "https://www.liorra.io/project/inflows",
+        "https://www.liorra.io/book-a-call",
+        "https://www.liorra.io/project/ocean-premium",
+        "https://www.liorra.io/portfolio",
+        "https://www.liorra.io/project/siza-telehealth-system",
+        "https://www.liorra.io/project/zaio-elearning-system",
+        "https://www.liorra.io/post/outsourcing-vs-insourcing-software-development-make-the-right-choice",
+        "https://www.liorra.io/privacy-policy",
+        "https://www.liorra.io/project/brightmind-elearning-mobile-app",
+        "https://www.liorra.io/services/product-design-prototyping",
+        "https://www.liorra.io/project/yoma-unicef",
+        "https://www.liorra.io/post-category/innovation",
+        "https://www.liorra.io/refund-policy",
+        "https://www.liorra.io/services/software-development",
+        "https://www.liorra.io/legal"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/liorra",
+        "twitter": "https://twitter.com/liorraTech"
+      },
+      "crawl_time": 54.944892168045044,
+      "status": "success"
+    },
+    {
+      "url": "https://www.liorra.io/services/mobile-app-development",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Liorra",
+        "tagline_slogan": "Accelerate Your Mobile Strategy with Our Advanced App Development",
+        "short_description": "Trusted by 150+ companies worldwide to deliver exceptional digital products",
+        "long_description_about_us": null,
+        "unique_selling_proposition_usp": [
+          "Cost-Effective Solutions",
+          "Exceptional User Experience",
+          "Optimized for All Devices"
+        ],
+        "products": [],
+        "services": [
+          {
+            "name": "Hybrid App Development",
+            "scope": "Utilizing the latest in hybrid app frameworks like React Native and Flutter, we create apps that run smoothly on both iOS and Android from a single codebase, speeding up development and reducing costs.",
+            "benefits": [
+              "Rapid Market Entry",
+              "High Performance and Scalability",
+              "Cross-Platform Reach"
+            ],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/services/mobile-app-development"
+          }
+        ],
+        "pricing_tiers": [],
+        "free_trials_demos": "Book Your Free Consultation – Transform Your Mobile Strategy Now!",
+        "customer_segments": [],
+        "use_cases_scenarios": [],
+        "pain_points_solved": [],
+        "customer_testimonials": [
+          {
+            "quote": "Liorra excels in software development by actively involving clients in the process. They maintain frequent, insightful, and professional communication and make themselves available for regular feedback sessions. Furthermore, they are receptive to suggestions and input, encouraging a collaborative approach",
+            "customer_name": "John Smith Doe",
+            "source": "Website Text"
+          }
+        ],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [
+          "5.0 Based on Clutch Reviews"
+        ],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": null,
+          "phone": null,
+          "contact_form_mention": true
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [
+          "5.0 Based on Clutch Reviews"
+        ],
+        "integrations_api_availability": null,
+        "page_topic": "Mobile App Development",
+        "extracted_from_url": "https://www.liorra.io/services/mobile-app-development"
+      },
+      "links_found": [
+        "https://www.liorra.io/project/siza-telehealth-system",
+        "https://www.liorra.io/services/product-design-prototyping",
+        "https://www.liorra.io/services/cyber-security",
+        "https://www.liorra.io/project/zaio-elearning-system",
+        "https://www.liorra.io/refund-policy",
+        "https://www.liorra.io/privacy-policy",
+        "https://www.liorra.io/services/web-app-development",
+        "https://www.liorra.io/legal",
+        "https://www.liorra.io/services/software-development",
+        "https://www.liorra.io/project/brightmind-elearning-mobile-app",
+        "https://www.liorra.io/book-a-call",
+        "https://www.liorra.io/project/ocean-premium",
+        "https://www.liorra.io/portfolio"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/liorra",
+        "twitter": "https://twitter.com/liorraTech"
+      },
+      "crawl_time": 31.055651664733887,
+      "status": "success"
+    },
+    {
+      "url": "https://www.liorra.io/blog",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Liorra Tech (PTY) Ltd",
+        "tagline_slogan": null,
+        "short_description": "Liorra is a leading software development firm based in Sandton, South Africa.",
+        "long_description_about_us": null,
+        "unique_selling_proposition_usp": [],
+        "products": [],
+        "services": [],
+        "pricing_tiers": [],
+        "free_trials_demos": null,
+        "customer_segments": [],
+        "use_cases_scenarios": [],
+        "pain_points_solved": [],
+        "customer_testimonials": [],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": "hello@liorra.io",
+          "phone": "+27 21 813 9767",
+          "contact_form_mention": false
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "Blog",
+        "extracted_from_url": "https://www.liorra.io/blog"
+      },
+      "links_found": [
+        "https://www.liorra.io/post-category/code",
+        "https://www.liorra.io/post-category/change",
+        "https://www.liorra.io/post/how-digital-can-supercharge-your-south-african-business",
+        "https://www.liorra.io/post-category/dev-tips",
+        "https://www.liorra.io/services/cyber-security",
+        "https://www.liorra.io/post-category/collaboration",
+        "https://www.liorra.io/post/a-comprehensive-guide-to-software-scalability-in-app-development",
+        "https://www.liorra.io/post-category/vitals-check",
+        "https://www.liorra.io/services/web-app-development",
+        "https://www.liorra.io/post-category/web-development",
+        "https://www.liorra.io/post-category/edtech",
+        "https://www.liorra.io/book-a-call",
+        "https://www.liorra.io/project/ocean-premium",
+        "https://www.liorra.io/portfolio",
+        "https://www.liorra.io/project/siza-telehealth-system",
+        "https://www.liorra.io/post-category/startup",
+        "https://www.liorra.io/project/zaio-elearning-system",
+        "https://www.liorra.io/post-category/articles",
+        "https://www.liorra.io/post/revolutionising-user-experience-in-app-development",
+        "https://www.liorra.io/post/outsourcing-vs-insourcing-software-development-make-the-right-choice",
+        "https://www.liorra.io/post/understanding-the-costs-of-mobile-application-development-costs",
+        "https://www.liorra.io/post/benefits-of-app-development-in-fast-paced-market",
+        "https://www.liorra.io/privacy-policy",
+        "https://www.liorra.io/project/brightmind-elearning-mobile-app",
+        "https://www.liorra.io/post-category/design",
+        "https://www.liorra.io/services/product-design-prototyping",
+        "https://www.liorra.io/post-category/tech-tips",
+        "https://www.liorra.io/post/ai-vs-humans-threats-on-app-development",
+        "https://www.liorra.io/post/looking-at-software-companies-in-sa",
+        "https://www.liorra.io/post-category/innovation",
+        "https://www.liorra.io/post/decoding-app-development-timelines-from-concept-to-launch",
+        "https://www.liorra.io/refund-policy",
+        "https://www.liorra.io/post/is-a-mobile-app-right-for-your-business-weighing-the-pros-cons-alternatives-to-make-the-right-choice",
+        "https://www.liorra.io/post/outsourcing-app-development-a-comprehensive-guide-for-businesses",
+        "https://www.liorra.io/services/software-development",
+        "https://www.liorra.io/template-info/old-home",
+        "https://www.liorra.io/legal"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/liorra",
+        "twitter": "https://twitter.com/liorraTech"
+      },
+      "crawl_time": 50.141112089157104,
+      "status": "success"
+    },
+    {
+      "url": "https://www.liorra.io/contact",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Liorra Tech (PTY) Ltd",
+        "tagline_slogan": null,
+        "short_description": "Liorra is a leading software development firm based in Sandton, South Africa.",
+        "long_description_about_us": null,
+        "unique_selling_proposition_usp": [],
+        "products": [],
+        "services": [
+          {
+            "name": "Concept Validation",
+            "scope": null,
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/contact"
+          },
+          {
+            "name": "Design Your App",
+            "scope": null,
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/contact"
+          },
+          {
+            "name": "UX/UI Audit",
+            "scope": null,
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/contact"
+          },
+          {
+            "name": "Mobile App Development",
+            "scope": null,
+            "benefits": [],
+            "delivery_method": null
+          },
+          {
+            "name": "Web App Development",
+            "scope": null,
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/contact"
+          },
+          {
+            "name": "Other",
+            "scope": null,
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/contact"
+          }
+        ],
+        "pricing_tiers": [],
+        "free_trials_demos": null,
+        "customer_segments": [],
+        "use_cases_scenarios": [],
+        "pain_points_solved": [],
+        "customer_testimonials": [],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": "hello@liorra.io",
+          "phone": "+27 21 813 9767",
+          "contact_form_mention": true
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "Contact",
+        "extracted_from_url": "https://www.liorra.io/contact"
+      },
+      "links_found": [
+        "https://www.liorra.io/project/siza-telehealth-system",
+        "https://www.liorra.io/services/product-design-prototyping",
+        "https://www.liorra.io/services/cyber-security",
+        "https://www.liorra.io/project/zaio-elearning-system",
+        "https://www.liorra.io/refund-policy",
+        "https://www.liorra.io/privacy-policy",
+        "https://www.liorra.io/services/web-app-development",
+        "https://www.liorra.io/legal",
+        "https://www.liorra.io/services/software-development",
+        "https://www.liorra.io/project/brightmind-elearning-mobile-app",
+        "https://www.liorra.io/book-a-call",
+        "https://www.liorra.io/project/ocean-premium",
+        "https://www.liorra.io/portfolio"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/liorra",
+        "twitter": "https://twitter.com/liorraTech"
+      },
+      "crawl_time": 77.88505601882935,
+      "status": "success"
+    },
+    {
+      "url": "https://www.liorra.io/about",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Liorra",
+        "tagline_slogan": "A custom software development company like no other",
+        "short_description": "We are a team of great developers, designers, problem solvers, and passionate collaborators.",
+        "long_description_about_us": "We are a custom software development company located in South Africa with team of 26 specialists and with sales office in Sandton. We help companies at any stage of the product software development cycle: from R&D and building MVP from scratch, to scaling, UX analyzing, management and consultation.",
+        "unique_selling_proposition_usp": [
+          "Africa's leading custom software development firm",
+          "Team of 26 specialists",
+          "Sales office in Sandton",
+          "Helps companies at any stage of the product software development cycle"
+        ],
+        "products": [],
+        "services": [
+          {
+            "name": "Custom Software Development",
+            "scope": "Helps companies at any stage of the product software development cycle: from R&D and building MVP from scratch, to scaling, UX analyzing, management and consultation.",
+            "benefits": [
+              "Professionalism",
+              "Attention to detail",
+              "Timely communication",
+              "Highly organized",
+              "Ability to execute concepts",
+              "Development prowess",
+              "Active client involvement",
+              "Frequent, insightful, and professional communication",
+              "Receptive to suggestions and input",
+              "Collaborative approach"
+            ],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/about"
+          }
+        ],
+        "pricing_tiers": [],
+        "free_trials_demos": null,
+        "customer_segments": [],
+        "use_cases_scenarios": [],
+        "pain_points_solved": [],
+        "customer_testimonials": [
+          {
+            "quote": "Their team of experts worked diligently to ensure that my app was designed and developed to meet my exact specifications. Their professionalism, attention to detail, and timely communication made the entire process smooth and stress-free.",
+            "customer_name": "Karan",
+            "source": "Website Text"
+          },
+          {
+            "quote": "The team was highly organized and internal stakeholders were particularly impressed with their ability to execute concepts and development prowess.",
+            "customer_name": "Thamsanqa Sibiya",
+            "source": "Website Text"
+          },
+          {
+            "quote": "Liorra excels in software development by actively involving clients in the process. They maintain frequent, insightful, and professional communication and make themselves available for regular feedback sessions. Furthermore, they are receptive to suggestions and input, encouraging a collaborative approach.",
+            "customer_name": "Miki von Ketelhodt",
+            "source": "Website Text"
+          }
+        ],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [
+          "26 Hero Members",
+          "100 Sleepless Hours",
+          "98% Positive Feedback",
+          "1000+ Cups of Coffee"
+        ],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": "hello@liorra.io",
+          "phone": "+27 21 813 9767",
+          "contact_form_mention": null
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "About Us",
+        "extracted_from_url": "https://www.liorra.io/about"
+      },
+      "links_found": [
+        "https://www.liorra.io/project/siza-telehealth-system",
+        "https://www.liorra.io/services/product-design-prototyping",
+        "https://www.liorra.io/services/cyber-security",
+        "https://www.liorra.io/project/zaio-elearning-system",
+        "https://www.liorra.io/refund-policy",
+        "https://www.liorra.io/privacy-policy",
+        "https://www.liorra.io/services/web-app-development",
+        "https://www.liorra.io/legal",
+        "https://www.liorra.io/services/software-development",
+        "https://www.liorra.io/project/brightmind-elearning-mobile-app",
+        "https://www.liorra.io/book-a-call",
+        "https://www.liorra.io/project/ocean-premium",
+        "https://www.liorra.io/portfolio"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/liorra",
+        "twitter": "https://twitter.com/liorraTech"
+      },
+      "crawl_time": 112.27542400360107,
+      "status": "success"
+    },
+    {
+      "url": "https://www.liorra.io/post/the-role-of-app-development-for-businesses-in-2024-a-comprehensive-guide",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Liorra",
+        "tagline_slogan": null,
+        "short_description": "Liorra is a leading software development firm based in Sandton, South Africa.",
+        "long_description_about_us": null,
+        "unique_selling_proposition_usp": [
+          "Access to the latest training and knowledge of the industry",
+          "Cost-effective services and rapid project completion",
+          "Strong development methodologies",
+          "Custom app development designed with specific target audience in mind"
+        ],
+        "products": [],
+        "services": [
+          {
+            "name": "Mobile App Development",
+            "scope": "Developing mobile apps for businesses to streamline operations and boost revenue.",
+            "benefits": [
+              "Increased market share",
+              "Improved competitive edge",
+              "Increased customer engagement",
+              "Improved accessibility",
+              "Streamlined operations"
+            ],
+            "delivery_method": null
+          }
+        ],
+        "pricing_tiers": [],
+        "free_trials_demos": null,
+        "customer_segments": [
+          "Businesses in various sectors including retail, health and wellness, and fintech"
+        ],
+        "use_cases_scenarios": [
+          "Leveraging mobile commerce & fintech apps",
+          "Investing in retail and delivery apps",
+          "Expanding on the demand for health and wellness apps"
+        ],
+        "pain_points_solved": [
+          "Need for increased market share",
+          "Need for improved competitive edge",
+          "Need for increased customer engagement",
+          "Need for improved accessibility",
+          "Need for streamlined operations"
+        ],
+        "customer_testimonials": [],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": "hello@liorra.io",
+          "phone": "+27 21 813 9767",
+          "contact_form_mention": null
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "Blog Post",
+        "extracted_from_url": "https://www.liorra.io/post/the-role-of-app-development-for-businesses-in-2024-a-comprehensive-guide"
+      },
+      "links_found": [
+        "https://www.liorra.io/project/siza-telehealth-system",
+        "https://www.liorra.io/services/product-design-prototyping",
+        "https://www.liorra.io/services/cyber-security",
+        "https://www.liorra.io/project/zaio-elearning-system",
+        "https://www.liorra.io/post/a-comprehensive-guide-to-software-scalability-in-app-development",
+        "https://www.liorra.io/post-category/innovation",
+        "https://www.liorra.io/post-category/collaboration",
+        "https://www.liorra.io/refund-policy",
+        "https://www.liorra.io/post/outsourcing-vs-insourcing-software-development-make-the-right-choice",
+        "https://www.liorra.io/privacy-policy",
+        "https://www.liorra.io/services/web-app-development",
+        "https://www.liorra.io/legal",
+        "https://www.liorra.io/services/software-development",
+        "https://www.liorra.io/project/brightmind-elearning-mobile-app",
+        "https://www.liorra.io/book-a-call",
+        "https://www.liorra.io/project/ocean-premium",
+        "https://www.liorra.io/portfolio"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/liorra",
+        "twitter": "https://twitter.com/liorraTech"
+      },
+      "crawl_time": 139.45034170150757,
+      "status": "success"
+    },
+    {
+      "url": "https://www.liorra.io/project/taptap-capitec-bank",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Liorra",
+        "tagline_slogan": null,
+        "short_description": "Liorra is a leading software development firm based in Sandton, South Africa.",
+        "long_description_about_us": null,
+        "unique_selling_proposition_usp": [],
+        "products": [
+          {
+            "name": "Tap-Tap",
+            "description": "A peer-to-peer mobile payment solution powered by Bluetooth Low Energy (BLE) technology which makes it safe and simple to make and receive in person mobile payments.",
+            "features": [
+              "Tap-on-phone – The Payment SDK will allow small merchants to accept contactless card payments directly on their smartphone, without requiring expensive payment acceptance devices.",
+              "Proximity payments – The payment SDK will allow anyone to make and accept payments to anyone nearby through Bluetooth. This is particularly attractive as the payment experience emulates that of ApplePay, SamsungPay, etc. but does not require the device to have an NFC sensor and works on low-end smartphones."
+            ],
+            "image_urls_mentioned": [],
+            "source_url": "https://www.liorra.io/project/taptap-capitec-bank"
+          }
+        ],
+        "services": [],
+        "pricing_tiers": [],
+        "free_trials_demos": "Demo video",
+        "customer_segments": [],
+        "use_cases_scenarios": [],
+        "pain_points_solved": [
+          "Ensuring high-quality, uninterrupted service, robust security measures since we were dealing with financial services.",
+          "Using bluetooth technology to make and receive in person mobile payments."
+        ],
+        "customer_testimonials": [],
+        "case_studies": [
+          {
+            "title_or_summary": "TapTap - Capitec Bank",
+            "customer_name": "Capitec Bank",
+            "problem": "Ensuring high-quality, uninterrupted service, robust security measures since we were dealing with financial services. Using bluetooth technology to make and receive in person mobile payments.",
+            "solution": "Developed custom solutions using the latest technologies to ensure scalability and security. Enhanced user interface for better customer engagement.",
+            "results_metrics": [
+              "Tap-on-phone – The Payment SDK will allow small merchants to accept contactless card payments directly on their smartphone, without requiring expensive payment acceptance devices.",
+              "Proximity payments – The payment SDK will allow anyone to make and accept payments to anyone nearby through Bluetooth."
+            ]
+          }
+        ],
+        "success_metrics_kpis_mentioned": [],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": "2 years",
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": "hello@liorra.io",
+          "phone": "+27 21 813 9767",
+          "contact_form_mention": true
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "Project Detail",
+        "extracted_from_url": "https://www.liorra.io/project/taptap-capitec-bank"
+      },
+      "links_found": [
+        "https://www.liorra.io/project/siza-telehealth-system",
+        "https://www.liorra.io/services/product-design-prototyping",
+        "https://www.liorra.io/services/cyber-security",
+        "https://www.liorra.io/project/zaio-elearning-system",
+        "https://www.liorra.io/refund-policy",
+        "https://www.liorra.io/privacy-policy",
+        "https://www.liorra.io/services/web-app-development",
+        "https://www.liorra.io/legal",
+        "https://www.liorra.io/services/software-development",
+        "https://www.liorra.io/project/brightmind-elearning-mobile-app",
+        "https://www.liorra.io/book-a-call",
+        "https://www.liorra.io/project/ocean-premium",
+        "https://www.liorra.io/portfolio"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/liorra",
+        "twitter": "https://twitter.com/liorraTech"
+      },
+      "crawl_time": 139.74708890914917,
+      "status": "success"
+    },
+    {
+      "url": "https://www.liorra.io/services/cyber-security",
+      "depth": 1,
+      "analysis": {
+        "business_name": "Liorra",
+        "tagline_slogan": "Research-led cyber security consultants.",
+        "short_description": "Liorra is an independent cyber security consultancy with research at the core of what we do. Solving our African unique cyber security challenges and ensuring they are more resilient to cyber-attacks is why we exist and continue to exist.",
+        "long_description_about_us": "Liorra is renowned for its technical excellence and client-centric approach to solving cyber security challenges as well as software systems. From partnering with some of Africa’s most renowned startups, to advising large telecommunications and media corporations, our reputation of trust speaks for itself.",
+        "unique_selling_proposition_usp": [
+          "Client Focus",
+          "Africa Operating Focus",
+          "Technical Excellence",
+          "Research-led"
+        ],
+        "products": [],
+        "services": [
+          {
+            "name": "Security Assurance",
+            "scope": "Comprehensively assess web and mobile applications, the underlying APIs that they consume, as well as external and internal network infrastructure",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/services/cyber-security"
+          },
+          {
+            "name": "Cloud Security",
+            "scope": "Help organisations to predict, prevent, detect, and respond to attacks in IaaS, PaaS, and SaaS cloud implementations, across multiple providers, at all stages of adoption",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/services/cyber-security"
+          },
+          {
+            "name": "DevSecOps Consultancy",
+            "scope": "Help organisations to improve or adapt security practices in their software development process",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/services/cyber-security"
+          },
+          {
+            "name": "Cyber Defence",
+            "scope": "Use our extensive knowledge of real-world attacker TTPs to deliver effective offensive, defensive and collaborative client engagements across various specialties",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/services/cyber-security"
+          },
+          {
+            "name": "Managed Services",
+            "scope": "Provide continuous services that assist clients in managing their internet-exposed estates, through external asset mapping and vulnerability management services",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/services/cyber-security"
+          },
+          {
+            "name": "Digital Forensics and IR",
+            "scope": "Provide incident readiness consultancy services to help organisations prepare for cyber-attack as well as rapid assistance for security breaches, containing the incident to allow effective remediation and recovery",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/services/cyber-security"
+          },
+          {
+            "name": "Strategic Consultancy",
+            "scope": "Utilise in-house security expertise to advise and consult on cyber security strategy, organisational maturity and security assurance testing roadmaps",
+            "benefits": [],
+            "delivery_method": null,
+            "source_url": "https://www.liorra.io/services/cyber-security"
+          }
+        ],
+        "pricing_tiers": [],
+        "free_trials_demos": null,
+        "customer_segments": [
+          "Banking",
+          "Energy",
+          "Insurance",
+          "Technology",
+          "Media",
+          "Telecoms"
+        ],
+        "use_cases_scenarios": [],
+        "pain_points_solved": [],
+        "customer_testimonials": [],
+        "case_studies": [],
+        "success_metrics_kpis_mentioned": [],
+        "guarantees_return_policy": null,
+        "onboarding_process_description": null,
+        "implementation_timelines": null,
+        "support_channels": [],
+        "sales_contact_info": {
+          "email": "hello@liorra.io",
+          "phone": "+27 21 813 9767",
+          "contact_form_mention": true
+        },
+        "faqs": [],
+        "social_media_links_on_page": {
+          "linkedin": null,
+          "twitter": null,
+          "facebook": null,
+          "instagram": null,
+          "youtube": null,
+          "other": []
+        },
+        "press_mentions_media_coverage": [],
+        "reviews_ratings_mentioned": [],
+        "integrations_api_availability": null,
+        "page_topic": "Services",
+        "extracted_from_url": "https://www.liorra.io/services/cyber-security"
+      },
+      "links_found": [
+        "https://www.liorra.io/project/siza-telehealth-system",
+        "https://www.liorra.io/services/product-design-prototyping",
+        "https://www.liorra.io/project/zaio-elearning-system",
+        "https://www.liorra.io/refund-policy",
+        "https://www.liorra.io/privacy-policy",
+        "https://www.liorra.io/services/web-app-development",
+        "https://www.liorra.io/legal",
+        "https://www.liorra.io/services/software-development",
+        "https://www.liorra.io/project/brightmind-elearning-mobile-app",
+        "https://www.liorra.io/book-a-call",
+        "https://www.liorra.io/project/ocean-premium",
+        "https://www.liorra.io/portfolio"
+      ],
+      "targeted_social_links": {
+        "linkedin": "https://www.linkedin.com/company/liorra",
+        "twitter": "https://twitter.com/liorraTech"
+      },
+      "crawl_time": 157.92871594429016,
+      "status": "success"
+    }
+  ]
+}
